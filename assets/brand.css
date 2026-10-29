@@ -1,0 +1,3 @@
+/* Generated from the shared HelloBreak design system. */
+:root{--surface:#f4f8f7;--panel:#ffffff;--ink:#10292d;--muted:#49615f;--brand:#176b62;--on-brand:#ffffff;--tint:#dcefe9;--border:#8ca9a3;--warning:#895016;}
+@media(prefers-color-scheme:dark){:root{--surface:#10292d;--panel:#19363a;--ink:#e9f6f4;--muted:#b1ccca;--brand:#89dfcf;--on-brand:#10292d;--tint:#244a4b;--border:#688d87;--warning:#efbd83;}}

@@ -1,0 +1,53 @@
+{
+  "default": "en-US",
+  "locales": [
+    {
+      "id": "en-US",
+      "apple": "en-US",
+      "chrome": "en_US",
+      "name": "English (US)"
+    },
+    {
+      "id": "zh-Hans",
+      "apple": "zh-Hans",
+      "chrome": "zh_CN",
+      "name": "简体中文"
+    },
+    {
+      "id": "zh-Hant",
+      "apple": "zh-Hant",
+      "chrome": "zh_TW",
+      "name": "繁體中文"
+    },
+    {
+      "id": "es",
+      "apple": "es",
+      "chrome": "es",
+      "name": "Español"
+    },
+    {
+      "id": "ja",
+      "apple": "ja",
+      "chrome": "ja",
+      "name": "日本語"
+    },
+    {
+      "id": "ko",
+      "apple": "ko",
+      "chrome": "ko",
+      "name": "한국어"
+    },
+    {
+      "id": "fr",
+      "apple": "fr",
+      "chrome": "fr",
+      "name": "Français"
+    },
+    {
+      "id": "de",
+      "apple": "de",
+      "chrome": "de",
+      "name": "Deutsch"
+    }
+  ]
+}
