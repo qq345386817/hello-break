@@ -8,6 +8,7 @@ const email = process.env.SUPPORT_EMAIL || site.supportEmail;
 if(origin && !/^https:\/\/[a-z0-9.-]+(?::\d+)?$/i.test(origin))throw new Error('SITE_ORIGIN must be a public HTTPS origin');
 if(email && !/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(email))throw new Error('SUPPORT_EMAIL is invalid');
 const out=path.join(root,'dist');fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});fs.cpSync(path.join(root,'assets'),path.join(out,'assets'),{recursive:true});
+fs.copyFileSync(path.join(root,'_headers'),path.join(out,'_headers'));
 const escape = text => String(text).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pages=['index','help','privacy'];
 for(const locale of config.locales){

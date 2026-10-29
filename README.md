@@ -14,4 +14,6 @@ Connect this GitHub repository with production branch `main`, framework preset *
 
 `site.config.json` defines the canonical origin and support email. Optional `SITE_ORIGIN` and `SUPPORT_EMAIL` environment variables override them for a separate deployment. The root page defaults to English (US); language-specific pages use stable directory URLs.
 
+`_headers` sets `Cache-Control: no-transform` so Cloudflare preserves direct support-email links and does not inject email-obfuscation JavaScript. This configuration applies only to this Pages site.
+
 `content/locales.json` and translations are standalone snapshots from the parent App's `Localization/` source. Run the parent `scripts/generate-localizations.py` after translation changes. The website builds without the parent repository. `assets/brand.css` comes from the shared HelloBreak design system. `assets/icons/` contains exports of the shared HelloBreak icon. No analytics, ads, cookies, or remote font services are included by the site.
