@@ -18,7 +18,7 @@
       ],
       [
         "Can I limit one website instead of the whole browser?",
-        "Use the bundled Safari extension on iPhone, iPad or Mac; Chrome on Mac uses its extension and local connector. Add domains in HelloBreak. Selected sites share a website allowance separate from app limits. On Mac, Safari and Chrome share that allowance. Grant website access and avoid also limiting the whole browser as an app."
+        "Use the bundled Safari extension on iPhone, iPad or Mac; Chrome on Mac uses its extension and local connector. Add domains in HelloBreak. Selected sites share a website allowance separate from app limits. On Mac, Safari and Chrome share that allowance. Grant website access and avoid also limiting the whole browser as an app. Chrome also works independently without the Mac app. Configure websites and a daily allowance in the extension popup. Connecting the Mac app switches to its shared rules and imports today’s independent usage once."
       ],
       [
         "Do I need an account or cloud sync?",
@@ -45,7 +45,7 @@
       ],
       [
         "能只限制某个网站，而不限制整个浏览器吗？",
-        "在 iPhone、iPad 或 Mac 使用随 App 安装的 Safari 扩展；Mac 的 Chrome 使用独立扩展和本地连接组件。在 HelloBreak 添加域名，所选网站共用独立的网站额度。Mac 上 Safari 与 Chrome 共用该额度。请授予网站访问权限；若只需限制网站，不要同时限制整个浏览器 App。"
+        "在 iPhone、iPad 或 Mac 使用随 App 安装的 Safari 扩展；Mac 的 Chrome 使用独立扩展和本地连接组件。在 HelloBreak 添加域名，所选网站共用独立的网站额度。Mac 上 Safari 与 Chrome 共用该额度。请授予网站访问权限；若只需限制网站，不要同时限制整个浏览器 App。 Chrome 也可在未连接 Mac App 时独立运行，在扩展中配置网站和每日额度。连接主 App 后切换为共用规则，并将今天的独立用量合并一次。"
       ],
       [
         "需要账号或云同步吗？",
@@ -72,7 +72,7 @@
       ],
       [
         "可以只限制特定網站嗎？",
-        "在 iPhone、iPad 或 Mac 使用隨 App 安裝的 Safari 延伸功能；Mac 的 Chrome 使用獨立延伸功能和本機連線元件。在 HelloBreak 新增網域，所選網站共用獨立網站額度。Mac 上 Safari 與 Chrome 共用該額度。請授予網站取用權限；若只需限制網站，勿同時限制整個瀏覽器 App。"
+        "在 iPhone、iPad 或 Mac 使用隨 App 安裝的 Safari 延伸功能；Mac 的 Chrome 使用獨立延伸功能和本機連線元件。在 HelloBreak 新增網域，所選網站共用獨立網站額度。Mac 上 Safari 與 Chrome 共用該額度。請授予網站取用權限；若只需限制網站，勿同時限制整個瀏覽器 App。 Chrome 也可在未連線 Mac App 時獨立執行，在擴充功能中設定網站與每日額度。連線主 App 後切換為共用規則，並將今天的獨立用量合併一次。"
       ],
       [
         "需要帳號或雲端同步嗎？",
@@ -99,7 +99,7 @@
       ],
       [
         "¿Puedo limitar un sitio sin limitar todo el navegador?",
-        "Usa la extensión Safari incluida en iPhone, iPad o Mac; Chrome en Mac usa su extensión y conector local. Añade dominios en HelloBreak. Los sitios comparten una cuota separada de las apps; Safari y Chrome comparten esa cuota en Mac. Permite el acceso a los sitios y no limites también el navegador completo como app."
+        "Usa la extensión Safari incluida en iPhone, iPad o Mac; Chrome en Mac usa su extensión y conector local. Añade dominios en HelloBreak. Los sitios comparten una cuota separada de las apps; Safari y Chrome comparten esa cuota en Mac. Permite el acceso a los sitios y no limites también el navegador completo como app. Chrome también funciona sin la app de Mac. Configura sitios y tiempo diario en su ventana. Al conectar la app, usa sus reglas compartidas e incorpora una vez el uso independiente de hoy."
       ],
       [
         "¿Necesito una cuenta o sincronización en la nube?",
@@ -126,7 +126,7 @@
       ],
       [
         "ブラウザ全体ではなく特定サイトを制限できますか？",
-        "iPhone、iPad、Macでは同梱のSafari機能拡張を、MacのChromeでは専用機能拡張とローカルコネクタを使います。HelloBreakにドメインを追加すると、選んだサイトはアプリとは別の上限を共有します。MacのSafariとChromeは同じWeb上限を共有します。サイトへのアクセスを許可し、サイトのみを制限する場合はブラウザ全体をアプリとして選ばないでください。"
+        "iPhone、iPad、Macでは同梱のSafari機能拡張を、MacのChromeでは専用機能拡張とローカルコネクタを使います。HelloBreakにドメインを追加すると、選んだサイトはアプリとは別の上限を共有します。MacのSafariとChromeは同じWeb上限を共有します。サイトへのアクセスを許可し、サイトのみを制限する場合はブラウザ全体をアプリとして選ばないでください。 Chrome は Mac アプリなしでも利用でき、拡張機能でサイトと1日の上限を設定できます。接続すると Mac の共有ルールに切り替わり、今日の単独利用時間を1回だけ加算します。"
       ],
       [
         "アカウントやクラウド同期は必要ですか？",
@@ -153,7 +153,7 @@
       ],
       [
         "브라우저 전체 대신 특정 사이트만 제한할 수 있나요?",
-        "iPhone, iPad, Mac에서 함께 제공되는 Safari 확장을 사용하세요. Mac의 Chrome은 별도 확장과 로컬 커넥터를 사용해요. HelloBreak에 도메인을 추가하면 선택한 사이트가 앱과 별도의 한도를 공유해요. Mac에서는 Safari와 Chrome이 이 한도를 함께 사용해요. 사이트 접근을 허용하고 사이트만 제한하려면 브라우저 전체를 제한 앱으로 선택하지 마세요."
+        "iPhone, iPad, Mac에서 함께 제공되는 Safari 확장을 사용하세요. Mac의 Chrome은 별도 확장과 로컬 커넥터를 사용해요. HelloBreak에 도메인을 추가하면 선택한 사이트가 앱과 별도의 한도를 공유해요. Mac에서는 Safari와 Chrome이 이 한도를 함께 사용해요. 사이트 접근을 허용하고 사이트만 제한하려면 브라우저 전체를 제한 앱으로 선택하지 마세요. Chrome은 Mac 앱 없이도 사용할 수 있어요. 확장 프로그램에서 사이트와 일일 한도를 설정하세요. 연결하면 공유 규칙으로 전환하고 오늘의 독립 사용 시간을 한 번만 합산해요."
       ],
       [
         "계정이나 클라우드 동기화가 필요한가요?",
@@ -180,7 +180,7 @@
       ],
       [
         "Puis-je limiter un site sans bloquer tout le navigateur ?",
-        "Utilisez l’extension Safari incluse sur iPhone, iPad ou Mac ; Chrome sur Mac utilise son extension et son connecteur local. Ajoutez des domaines dans HelloBreak. Les sites partagent un quota distinct des apps ; Safari et Chrome partagent ce quota sur Mac. Autorisez l’accès aux sites et ne limitez pas aussi le navigateur entier comme app."
+        "Utilisez l’extension Safari incluse sur iPhone, iPad ou Mac ; Chrome sur Mac utilise son extension et son connecteur local. Ajoutez des domaines dans HelloBreak. Les sites partagent un quota distinct des apps ; Safari et Chrome partagent ce quota sur Mac. Autorisez l’accès aux sites et ne limitez pas aussi le navigateur entier comme app. Chrome fonctionne aussi sans l’app Mac. Réglez les sites et le quota dans sa fenêtre. La connexion utilise les règles partagées et ajoute une seule fois l’usage autonome du jour."
       ],
       [
         "Faut-il un compte ou une synchronisation cloud ?",
@@ -207,7 +207,7 @@
       ],
       [
         "Kann ich einzelne Websites statt des ganzen Browsers begrenzen?",
-        "Nutze die enthaltene Safari-Erweiterung auf iPhone, iPad oder Mac; Chrome auf dem Mac nutzt seine Erweiterung und den lokalen Connector. Füge Domains in HelloBreak hinzu. Gewählte Websites teilen ein Limit, getrennt von Apps; auf dem Mac teilen Safari und Chrome dieses Limit. Erlaube den Website-Zugriff und begrenze nicht zusätzlich den gesamten Browser als App."
+        "Nutze die enthaltene Safari-Erweiterung auf iPhone, iPad oder Mac; Chrome auf dem Mac nutzt seine Erweiterung und den lokalen Connector. Füge Domains in HelloBreak hinzu. Gewählte Websites teilen ein Limit, getrennt von Apps; auf dem Mac teilen Safari und Chrome dieses Limit. Erlaube den Website-Zugriff und begrenze nicht zusätzlich den gesamten Browser als App. Chrome funktioniert auch ohne Mac-App. Lege Websites und Tagesbudget im Popup fest. Beim Verbinden gelten die gemeinsamen Regeln und die heutige eigenständige Nutzung wird einmalig übernommen."
       ],
       [
         "Brauche ich ein Konto oder Cloud-Synchronisierung?",
