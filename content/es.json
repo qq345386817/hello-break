@@ -167,5 +167,14 @@
   "shield.homeHint": "Cuando quieras, vuelve a la pantalla de inicio y abre HelloBreak.",
   "shield.rest": "Tomar un respiro",
   "shield.open": "Abrir HelloBreak",
-  "allowance.macMigration": "Los límites ahora son por app. Se conservan tus límites y los contadores empiezan con esta actualización."
+  "allowance.macMigration": "Los límites ahora son por app. Se conservan tus límites y los contadores empiezan con esta actualización.",
+  "dashboard.title": "Haz espacio para tu día.",
+  "dashboard.subtitle": "Menos deslizar. Más de lo que importa.",
+  "dashboard.authorization": "Autoriza Tiempo de uso para fijar tus límites. Tú mantienes el control.",
+  "dashboard.limits": "Tus límites diarios",
+  "dashboard.empty.title": "Empieza con una app",
+  "dashboard.empty.body": "Elige las apps de las que quieres tomar un poco de distancia.",
+  "dashboard.settings": "A tu manera",
+  "dashboard.used": "Uso de hoy: %d min",
+  "dashboard.pause": "Una pausa amable"
 }

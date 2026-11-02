@@ -167,5 +167,14 @@
   "shield.homeHint": "Wenn du bereit bist, öffne HelloBreak über den Home-Bildschirm.",
   "shield.rest": "Kurz durchatmen",
   "shield.open": "HelloBreak öffnen",
-  "allowance.macMigration": "Die App-Zeiten werden jetzt einzeln gezählt. Deine Limits bleiben erhalten; die Zähler beginnen mit diesem Update."
+  "allowance.macMigration": "Die App-Zeiten werden jetzt einzeln gezählt. Deine Limits bleiben erhalten; die Zähler beginnen mit diesem Update.",
+  "dashboard.title": "Mehr Raum für deinen Tag.",
+  "dashboard.subtitle": "Weniger Scrollen. Mehr von dem, was zählt.",
+  "dashboard.authorization": "Erlaube Bildschirmzeit und lege eigene App-Limits fest. Du behältst die Kontrolle.",
+  "dashboard.limits": "Deine Tageslimits",
+  "dashboard.empty.title": "Beginne mit einer App",
+  "dashboard.empty.body": "Wähle die Apps, von denen du etwas Abstand möchtest.",
+  "dashboard.settings": "So, wie es zu dir passt",
+  "dashboard.used": "Heute genutzt: %d Min.",
+  "dashboard.pause": "Eine sanfte Pause"
 }

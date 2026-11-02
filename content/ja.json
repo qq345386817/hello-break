@@ -167,5 +167,14 @@
   "shield.homeHint": "準備ができたら、ホーム画面からHelloBreakを開いてください。",
   "shield.rest": "ひと休みする",
   "shield.open": "HelloBreakを開く",
-  "allowance.macMigration": "アプリごとの計測に切り替えました。以前の上限は引き継ぎ、使用時間は今回の更新後から計測します。"
+  "allowance.macMigration": "アプリごとの計測に切り替えました。以前の上限は引き継ぎ、使用時間は今回の更新後から計測します。",
+  "dashboard.title": "毎日に、余白を。",
+  "dashboard.subtitle": "スクロールを少し減らして、大切なことを。",
+  "dashboard.authorization": "スクリーンタイムを許可して、自分の上限を決めましょう。管理はいつでも変更できます。",
+  "dashboard.limits": "アプリごとの上限",
+  "dashboard.empty.title": "まずはアプリをひとつ",
+  "dashboard.empty.body": "少し距離を置きたいアプリを選びましょう。",
+  "dashboard.settings": "自分に合った使い方で",
+  "dashboard.used": "今日の使用：%d分",
+  "dashboard.pause": "やさしく、ひと休み"
 }

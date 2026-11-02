@@ -167,5 +167,14 @@
   "shield.homeHint": "You can return to the Home Screen and open HelloBreak whenever you’re ready.",
   "shield.rest": "Take a breather",
   "shield.open": "Open HelloBreak",
-  "allowance.macMigration": "Your app limits are now separate. Today’s counters start with this update; your previous limits are kept."
+  "allowance.macMigration": "Your app limits are now separate. Today’s counters start with this update; your previous limits are kept.",
+  "dashboard.title": "Make room for your day.",
+  "dashboard.subtitle": "A little less scrolling. More of what matters.",
+  "dashboard.authorization": "Allow Screen Time to set your own app limits. You stay in control.",
+  "dashboard.limits": "Your daily limits",
+  "dashboard.empty.title": "Start with one app",
+  "dashboard.empty.body": "Choose the apps you want a little more space from.",
+  "dashboard.settings": "Make it yours",
+  "dashboard.used": "Used today: %d min",
+  "dashboard.pause": "A gentle pause"
 }

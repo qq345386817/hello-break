@@ -167,5 +167,14 @@
   "shield.homeHint": "준비가 되면 홈 화면에서 HelloBreak를 열어 보세요.",
   "shield.rest": "잠시 쉬기",
   "shield.open": "HelloBreak 열기",
-  "allowance.macMigration": "앱별 계산으로 바뀌었어요. 기존 한도는 유지되며 오늘 사용 시간은 업데이트 후부터 계산해요."
+  "allowance.macMigration": "앱별 계산으로 바뀌었어요. 기존 한도는 유지되며 오늘 사용 시간은 업데이트 후부터 계산해요.",
+  "dashboard.title": "하루에 여유를 더하세요.",
+  "dashboard.subtitle": "스크롤은 조금 줄이고, 소중한 일은 더 많이.",
+  "dashboard.authorization": "스크린 타임을 허용하고 앱 한도를 정하세요. 선택권은 언제나 나에게 있어요.",
+  "dashboard.limits": "나의 하루 앱 한도",
+  "dashboard.empty.title": "앱 하나부터 시작하세요",
+  "dashboard.empty.body": "조금 거리를 두고 싶은 앱을 골라보세요.",
+  "dashboard.settings": "나에게 맞게 설정하세요",
+  "dashboard.used": "오늘 사용: %d분",
+  "dashboard.pause": "부드럽게 잠시 쉬어요"
 }

@@ -167,5 +167,14 @@
   "shield.homeHint": "準備好時，可以回到主畫面開啟先問好。",
   "shield.rest": "先休息一下",
   "shield.open": "開啟先問好",
-  "allowance.macMigration": "已改為各 App 獨立計時，原有額度已保留。今天的使用時間從本次升級後重新累計。"
+  "allowance.macMigration": "已改為各 App 獨立計時，原有額度已保留。今天的使用時間從本次升級後重新累計。",
+  "dashboard.title": "給生活，留一點時間。",
+  "dashboard.subtitle": "少滑一會兒，多一點在意的生活。",
+  "dashboard.authorization": "授權螢幕使用時間，為 App 設定自己的限額。決定權始終在你。",
+  "dashboard.limits": "你的每日限額",
+  "dashboard.empty.title": "從一個 App 開始",
+  "dashboard.empty.body": "選擇那些你想少花一點時間的 App。",
+  "dashboard.settings": "依你的習慣調整",
+  "dashboard.used": "今日已用：%d 分鐘",
+  "dashboard.pause": "溫和地暫停一下"
 }
