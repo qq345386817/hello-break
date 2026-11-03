@@ -1,5 +1,5 @@
 {
-  "app.name": "先問好",
+  "app.name": "HelloBreak",
   "nav.today": "今天",
   "nav.connect": "連結一下",
   "nav.menu": "連結選單",
@@ -164,9 +164,9 @@
   "shield.thisApp": "這個 App",
   "shield.daily": "你今天為 %@ 留出的 %d 分鐘已用完。先讓眼睛和注意力休息一下。",
   "shield.manual": "你為 %@ 按下了暫停。先歇一會兒，再決定接下來做什麼。",
-  "shield.homeHint": "準備好時，可以回到主畫面開啟先問好。",
+  "shield.homeHint": "準備好時，可以回到主畫面開啟 HelloBreak。",
   "shield.rest": "先休息一下",
-  "shield.open": "開啟先問好",
+  "shield.open": "開啟 HelloBreak",
   "allowance.macMigration": "已改為各 App 獨立計時，原有額度已保留。今天的使用時間從本次升級後重新累計。",
   "dashboard.title": "給生活，留一點時間。",
   "dashboard.subtitle": "少滑一會兒，多一點在意的生活。",

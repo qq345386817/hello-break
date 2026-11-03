@@ -4,6 +4,8 @@ Independent website repository for the HelloBreak home, help and privacy pages.
 
 Production: https://hello-break.luopeike.com · Support: cameoshell09@gmail.com
 
+The product name is **HelloBreak in every language**; do not localize the brand name.
+
 Default language: English (US). All eight languages match the App: `en-US`, `zh-Hans`, `zh-Hant`, `es`, `ja`, `ko`, `fr`, `de`.
 
 Run `npm run verify` to generate and validate 24 localized pages. Run `npm run dev` for preview at http://127.0.0.1:4173. No package installation is required.
