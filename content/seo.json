@@ -10,11 +10,11 @@
     "faq": [
       [
         "What does HelloBreak do?",
-        "HelloBreak helps you manage screen time with a separate daily allowance for each selected app. At the limit, take a break or try a small connection. No reply from another person is required."
+        "Set a separate daily limit for each app with HelloBreak. Use Apple Screen Time on iPhone, window covers on Mac, and the Chrome extension for selected websites. After reaching a limit, complete a 60-second guided breathing break to get 15 minutes of temporary access. Available once a day."
       ],
       [
         "How do iPhone and Mac limits differ?",
-        "iPhone uses Apple Screen Time system shields. The Mac version covers ordinary app windows and must stay running. Mac covers can be bypassed; iPhone temporary access is not yet available."
+        "iPhone uses Apple Screen Time system shields. The Mac version covers ordinary app windows and must stay running. Mac covers can be bypassed."
       ],
       [
         "Can I limit one website instead of the whole browser?",
@@ -37,11 +37,11 @@
     "faq": [
       [
         "HelloBreak 是做什么的？",
-        "HelloBreak 帮助管理屏幕时间，可为每个所选 App 设置独立每日额度。达到限额后休息一下，或尝试一次小小的连接，无需对方回复。"
+        "用 HelloBreak 为每个 App 设置独立每日限额。iPhone 使用 Apple 屏幕时间，Mac 遮挡应用窗口，Chrome 扩展可限制指定网站。 到限额后，完成 60 秒呼吸引导，即可临时使用 15 分钟。每天一次。"
       ],
       [
         "iPhone 和 Mac 的限制有何不同？",
-        "iPhone 使用 Apple 屏幕时间的系统遮罩。Mac 版遮挡普通应用窗口，需要保持运行；这种遮挡可被绕过。iPhone 暂不提供临时使用功能。"
+        "iPhone 使用 Apple 屏幕时间的系统遮罩。Mac 版遮挡普通应用窗口，需要保持运行；这种遮挡可被绕过。"
       ],
       [
         "能只限制某个网站，而不限制整个浏览器吗？",
@@ -64,11 +64,11 @@
     "faq": [
       [
         "HelloBreak 有什麼功能？",
-        "HelloBreak 協助管理螢幕時間，可為每個所選 App 設定獨立每日額度。達到限額後休息一下，或嘗試一次小小的連結，無需對方回覆。"
+        "用 HelloBreak 為每個 App 設定獨立每日限額。iPhone 使用 Apple 螢幕時間，Mac 遮擋應用程式視窗，Chrome 擴充功能可限制指定網站。 到額度後，完成 60 秒呼吸引導，即可暫時使用 15 分鐘。每天一次。"
       ],
       [
         "iPhone 和 Mac 的限制有何不同？",
-        "iPhone 使用 Apple 螢幕時間的系統遮罩。Mac 版遮擋一般應用程式視窗，需要保持執行；這種遮擋可被繞過。iPhone 暫不提供暫時使用功能。"
+        "iPhone 使用 Apple 螢幕時間的系統遮罩。Mac 版遮擋一般應用程式視窗，需要保持執行；這種遮擋可被繞過。"
       ],
       [
         "可以只限制特定網站嗎？",
@@ -91,11 +91,11 @@
     "faq": [
       [
         "¿Qué hace HelloBreak?",
-        "HelloBreak ayuda a gestionar el tiempo de pantalla con un límite diario independiente para cada app seleccionada. Al alcanzarlo, descansa o intenta conectar con alguien. No hace falta recibir una respuesta."
+        "Configura un límite diario independiente para cada app con HelloBreak. Usa Tiempo de uso en iPhone, cubiertas de ventanas en Mac y la extensión de Chrome para sitios concretos. Al alcanzar un límite, completa 60 segundos de respiración guiada para obtener 15 minutos de acceso temporal. Una vez al día."
       ],
       [
         "¿En qué se diferencian iPhone y Mac?",
-        "iPhone usa las pantallas de bloqueo de Tiempo de uso de Apple. Mac cubre ventanas normales y debe seguir abierto; esas cubiertas se pueden eludir. El acceso temporal en iPhone aún no está disponible."
+        "iPhone usa las pantallas de bloqueo de Tiempo de uso de Apple. Mac cubre ventanas normales y debe seguir abierto; esas cubiertas se pueden eludir."
       ],
       [
         "¿Puedo limitar un sitio sin limitar todo el navegador?",
@@ -118,11 +118,11 @@
     "faq": [
       [
         "HelloBreakは何をするアプリですか？",
-        "選んだアプリごとに1日の利用上限を設け、スクリーンタイムの管理を助けます。上限に達したらひと休みするか、誰かと小さなつながりを試せます。相手の返信は必要ありません。"
+        "HelloBreakでアプリごとに1日の利用上限を設定。iPhoneではAppleのスクリーンタイム、Macではウインドウのカバー、Chrome拡張機能では指定サイトを管理します。 上限に達したら、60秒の呼吸ガイドを完了すると15分間だけ利用できます。1日1回です。"
       ],
       [
         "iPhoneとMacでは制限がどう違いますか？",
-        "iPhoneはAppleのスクリーンタイムによるシステム遮蔽を使います。Macは通常のアプリのウインドウを覆い、起動したままにする必要があります。Macのカバーは回避できます。iPhoneの一時利用はまだ提供していません。"
+        "iPhoneはAppleのスクリーンタイムによるシステム遮蔽を使います。Macは通常のアプリのウインドウを覆い、起動したままにする必要があります。Macのカバーは回避できます。"
       ],
       [
         "ブラウザ全体ではなく特定サイトを制限できますか？",
@@ -145,11 +145,11 @@
     "faq": [
       [
         "HelloBreak는 어떤 앱인가요?",
-        "선택한 앱마다 별도의 일일 한도를 설정하여 스크린 타임 관리를 돕습니다. 한도에 도달하면 잠시 쉬거나 누군가와 가볍게 소통해 보세요. 상대방의 답장은 필요하지 않습니다."
+        "HelloBreak로 앱마다 별도의 일일 한도를 설정하세요. iPhone은 Apple 스크린 타임, Mac은 창 가리기, Chrome 확장 프로그램은 선택한 웹사이트를 관리합니다. 한도에 도달한 뒤 60초 호흡 안내를 완료하면 15분 동안 사용할 수 있어요. 하루 한 번 가능해요."
       ],
       [
         "iPhone과 Mac의 제한은 어떻게 다른가요?",
-        "iPhone은 Apple 스크린 타임의 시스템 차단 화면을 사용합니다. Mac은 일반 앱 창을 가리며 계속 실행해야 합니다. Mac의 가리기는 우회할 수 있습니다. iPhone의 임시 사용은 아직 제공되지 않습니다."
+        "iPhone은 Apple 스크린 타임의 시스템 차단 화면을 사용합니다. Mac은 일반 앱 창을 가리며 계속 실행해야 합니다. Mac의 가리기는 우회할 수 있습니다."
       ],
       [
         "브라우저 전체 대신 특정 사이트만 제한할 수 있나요?",
@@ -172,11 +172,11 @@
     "faq": [
       [
         "À quoi sert HelloBreak ?",
-        "HelloBreak aide à gérer le temps d’écran avec une limite quotidienne distincte pour chaque app choisie. À la limite, faites une pause ou tentez un petit contact. Aucune réponse de l’autre personne n’est requise."
+        "Définissez une limite quotidienne par app avec HelloBreak : Temps d’écran sur iPhone, fenêtres masquées sur Mac et extension Chrome pour les sites choisis. Après une limite, terminez 60 secondes de respiration guidée pour obtenir 15 minutes d’accès temporaire. Une fois par jour."
       ],
       [
         "Quelle est la différence entre iPhone et Mac ?",
-        "iPhone utilise les écrans de protection de Temps d’écran d’Apple. Sur Mac, HelloBreak masque les fenêtres ordinaires et doit rester ouvert. Ces masques peuvent être contournés. L’accès temporaire sur iPhone n’est pas encore disponible."
+        "iPhone utilise les écrans de protection de Temps d’écran d’Apple. Sur Mac, HelloBreak masque les fenêtres ordinaires et doit rester ouvert. Ces masques peuvent être contournés."
       ],
       [
         "Puis-je limiter un site sans bloquer tout le navigateur ?",
@@ -199,11 +199,11 @@
     "faq": [
       [
         "Was macht HelloBreak?",
-        "HelloBreak hilft bei der Bildschirmzeit mit einem eigenen Tageslimit für jede ausgewählte App. Nach Erreichen des Limits kannst du eine Pause machen oder einen kleinen Kontaktversuch starten. Eine Antwort ist nicht erforderlich."
+        "Lege mit HelloBreak ein eigenes Tageslimit pro App fest: Apple Bildschirmzeit auf dem iPhone, Fensterabdeckungen auf dem Mac und Chrome-Erweiterung für ausgewählte Websites. Ab dem Zeitlimit erhältst du nach 60 Sekunden geführtem Atmen 15 Minuten vorübergehenden Zugriff. Einmal täglich."
       ],
       [
         "Wie unterscheiden sich iPhone und Mac?",
-        "Das iPhone verwendet die Systemsperrflächen von Apple Bildschirmzeit. Auf dem Mac werden normale App-Fenster abgedeckt; HelloBreak muss weiterlaufen. Diese Abdeckungen lassen sich umgehen. Vorübergehender Zugriff ist auf dem iPhone noch nicht verfügbar."
+        "Das iPhone verwendet die Systemsperrflächen von Apple Bildschirmzeit. Auf dem Mac werden normale App-Fenster abgedeckt; HelloBreak muss weiterlaufen. Diese Abdeckungen lassen sich umgehen."
       ],
       [
         "Kann ich einzelne Websites statt des ganzen Browsers begrenzen?",

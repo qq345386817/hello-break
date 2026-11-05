@@ -20,6 +20,10 @@ Connect this GitHub repository with production branch `main`, framework preset *
 
 `content/locales.json` and translations are standalone snapshots from the parent App's `Localization/` source. Run the parent `scripts/generate-localizations.py` after translation changes. The website builds without the parent repository. `assets/brand.css` comes from the shared HelloBreak design system. `assets/icons/` contains exports of the shared HelloBreak icon. No analytics, ads, cookies, or remote font services are included by the site.
 
+Current product copy covers separate app/category limits, the once-daily 60-second breathing guide with 15-minute temporary access, and independent Focus configuration. Focus setup uses the Focus workspace; it does not modify daily selections. Internal TestFlight availability is separate from a public store release. The new iOS report and automatic re-lock still need physical-device acceptance; do not describe them as verified by the website build checks.
+
+Commit the eight locale snapshots together when syncing shared App strings. Keep website-only SEO/template changes in a separate commit when practical, and push the finished batch to avoid deploying intermediate copy. `dist/`, local `.wrangler/` state, logs and environment credentials are excluded from Git.
+
 ## Search and AI discovery
 
 `content/seo.json` supplies website-only titles, descriptions and four substantive FAQ answers in all eight languages. Keep these consistent with real App behavior. The build preserves the existing canonical routes and hreflang links, generates a 24-URL sitemap, and emits WebSite, SoftwareApplication and page JSON-LD. FAQ markup on help pages matches visible answers. It does not invent ratings, prices or store availability. JSON-LD is inert data; no executable JavaScript is added.
