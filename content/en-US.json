@@ -314,10 +314,10 @@
   "insights.noManaged": "Set an app or category limit first, or turn this filter off to view all available activity.",
   "insights.notAuthorized": "Screen Time access is needed for the system report. Website and focus records below are available separately.",
   "insights.apps": "Managed app usage",
-  "insights.websites": "Website allowance usage",
+  "insights.websites": "Website allowance on this device",
   "insights.minutes": "Minutes",
   "insights.day": "Day",
-  "insights.websiteNote": "Counts HelloBreak’s configured Safari allowance. Temporary access is separate; this is not a complete Safari browsing history.",
+  "insights.websiteNote": "Measures the selected Safari sites' allowance on this device only. Temporary access is separate. This is not your full browsing history and is not synced across devices.",
   "insights.localNote": "Only recorded activity is shown. Missing days are not zero-use days. Mac usage requires HelloBreak to be running; app and website totals can overlap.",
   "insights.sessions": "Completed timers: %d",
   "insights.usageEmpty": "No measured usage to show yet. Records build up as you use managed apps or websites.",
@@ -325,5 +325,12 @@
   "insights.lessMinute": "Less than 1 min",
   "insights.topApps": "Apps in this report",
   "insights.breaks": "Guided breaks and temporary access",
-  "insights.breakEmpty": "After a limit is reached, completed breathing breaks and their temporary access will appear here."
+  "insights.breakEmpty": "After a limit is reached, completed breathing breaks and their temporary access will appear here.",
+  "error.monitoring": "Your selection is saved, but the system hasn’t enabled these limits. Please try again.",
+  "insights.openReport": "View Screen Time report",
+  "insights.reportOptions": "Report options",
+  "insights.deviceScope": "Devices",
+  "insights.currentDevice": "This device",
+  "insights.sharedDevices": "Shared devices",
+  "insights.reportScopeNote": "This device is the default. Shared-device reports depend on Apple's Share Across Devices setting and available system data. Website allowances remain local to each device."
 }

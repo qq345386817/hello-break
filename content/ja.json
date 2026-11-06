@@ -314,10 +314,10 @@
   "insights.noManaged": "先に上限を設定するか、フィルタをオフにして全記録を表示してください。",
   "insights.notAuthorized": "システムレポートには認証が必要です。下のサイトと集中の記録は別に確認できます。",
   "insights.apps": "管理対象アプリの利用",
-  "insights.websites": "サイトの上限使用量",
+  "insights.websites": "このデバイスのWeb利用枠",
   "insights.minutes": "分",
   "insights.day": "日付",
-  "insights.websiteNote": "設定したSafariの上限用タイマーです。一時的な利用は別枠で、完全な閲覧履歴ではありません。",
+  "insights.websiteNote": "この端末で選択したSafariサイトの利用枠のみを計測します。一時的な利用は別です。全閲覧履歴ではなく、他の端末とは同期しません。",
   "insights.localNote": "実際に記録したデータのみです。欠測は利用ゼロを意味しません。MacではHelloBreakの起動が必要で、アプリとサイトの時間は重複する場合があります。",
   "insights.sessions": "記録内で%d回のタイマーが完了",
   "insights.usageEmpty": "まだ測定された利用はありません。管理対象を使うと記録が蓄積されます。",
@@ -325,5 +325,12 @@
   "insights.lessMinute": "1分未満",
   "insights.topApps": "レポート内のアプリ",
   "insights.breaks": "ガイド休憩と一時的な利用",
-  "insights.breakEmpty": "上限に達した後、呼吸ガイドの完了と一時的な利用がここに記録されます。"
+  "insights.breakEmpty": "上限に達した後、呼吸ガイドの完了と一時的な利用がここに記録されます。",
+  "error.monitoring": "選択は保存されましたが、システムで制限を有効にできていません。もう一度お試しください。",
+  "insights.openReport": "スクリーンタイムレポートを見る",
+  "insights.reportOptions": "レポートの設定",
+  "insights.deviceScope": "デバイス",
+  "insights.currentDevice": "このデバイス",
+  "insights.sharedDevices": "共有デバイス",
+  "insights.reportScopeNote": "標準ではこのデバイスのみです。共有レポートはAppleの「デバイス間で共有」と利用可能なシステムデータに依存します。Webの利用枠は各端末で個別に計測します。"
 }

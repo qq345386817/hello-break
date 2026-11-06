@@ -314,10 +314,10 @@
   "insights.noManaged": "Définissez une limite ou désactivez le filtre pour tout afficher.",
   "insights.notAuthorized": "Le rapport nécessite l’autorisation Temps d’écran. Les autres relevés sont indépendants.",
   "insights.apps": "Usage des apps gérées",
-  "insights.websites": "Utilisation du quota web",
+  "insights.websites": "Quota web de cet appareil",
   "insights.minutes": "Minutes",
   "insights.day": "Jour",
-  "insights.websiteNote": "Mesure le quota Safari configuré. L’accès temporaire est distinct ; ce n’est pas l’historique complet.",
+  "insights.websiteNote": "Mesure uniquement le quota des sites Safari choisis sur cet appareil. L'accès temporaire est distinct. Ce n'est pas l'historique complet et il n'est pas synchronisé entre appareils.",
   "insights.localNote": "Seules les données enregistrées figurent ici. Une absence n’est pas un zéro. Sur Mac, HelloBreak doit fonctionner ; les durées peuvent se chevaucher.",
   "insights.sessions": "Minuteurs terminés : %d",
   "insights.usageEmpty": "Aucun usage mesuré pour le moment. Les relevés apparaîtront à l’utilisation.",
@@ -325,5 +325,12 @@
   "insights.lessMinute": "Moins de 1 min",
   "insights.topApps": "Apps de ce rapport",
   "insights.breaks": "Pauses guidées et accès temporaire",
-  "insights.breakEmpty": "Après une limite, les pauses terminées et l’accès temporaire apparaîtront ici."
+  "insights.breakEmpty": "Après une limite, les pauses terminées et l’accès temporaire apparaîtront ici.",
+  "error.monitoring": "Votre sélection est conservée, mais le système n’a pas activé ces limites. Réessayez.",
+  "insights.openReport": "Voir le rapport Temps d’écran",
+  "insights.reportOptions": "Options du rapport",
+  "insights.deviceScope": "Appareils",
+  "insights.currentDevice": "Cet appareil",
+  "insights.sharedDevices": "Appareils partagés",
+  "insights.reportScopeNote": "Par défaut, cet appareil uniquement. Les rapports partagés dépendent du partage entre appareils d'Apple et des données disponibles. Les quotas web restent propres à chaque appareil."
 }

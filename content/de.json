@@ -314,10 +314,10 @@
   "insights.noManaged": "Richte ein Limit ein oder deaktiviere den Filter für alle verfügbaren Daten.",
   "insights.notAuthorized": "Für den Systembericht ist Bildschirmzeit-Zugriff nötig. Website- und Fokusaufzeichnungen sind unabhängig.",
   "insights.apps": "Nutzung verwalteter Apps",
-  "insights.websites": "Website-Kontingentnutzung",
+  "insights.websites": "Website-Budget dieses Geräts",
   "insights.minutes": "Minuten",
   "insights.day": "Tag",
-  "insights.websiteNote": "Erfasst das eingerichtete Safari-Kontingent. Temporärer Zugriff zählt separat; kein vollständiger Browserverlauf.",
+  "insights.websiteNote": "Misst nur das Budget ausgewählter Safari-Seiten auf diesem Gerät. Temporärer Zugriff zählt separat. Kein vollständiger Browserverlauf und keine Synchronisierung zwischen Geräten.",
   "insights.localNote": "Nur erfasste Aktivität wird gezeigt. Fehlende Tage bedeuten nicht null Nutzung. Auf dem Mac muss HelloBreak laufen; Zeiten können sich überschneiden.",
   "insights.sessions": "Abgeschlossene Timer: %d",
   "insights.usageEmpty": "Noch keine gemessene Nutzung. Beim Verwenden verwalteter Apps oder Websites entstehen Aufzeichnungen.",
@@ -325,5 +325,12 @@
   "insights.lessMinute": "Unter 1 Min.",
   "insights.topApps": "Apps in diesem Bericht",
   "insights.breaks": "Geführte Pausen und temporärer Zugriff",
-  "insights.breakEmpty": "Nach Erreichen eines Limits erscheinen hier abgeschlossene Atempausen und temporäre Zugriffe."
+  "insights.breakEmpty": "Nach Erreichen eines Limits erscheinen hier abgeschlossene Atempausen und temporäre Zugriffe.",
+  "error.monitoring": "Deine Auswahl ist gespeichert, aber das System hat diese Limits nicht aktiviert. Bitte versuche es erneut.",
+  "insights.openReport": "Bildschirmzeit-Bericht ansehen",
+  "insights.reportOptions": "Berichtsoptionen",
+  "insights.deviceScope": "Geräte",
+  "insights.currentDevice": "Dieses Gerät",
+  "insights.sharedDevices": "Geteilte Geräte",
+  "insights.reportScopeNote": "Standardmäßig nur dieses Gerät. Gemeinsame Berichte hängen von Apples geräteübergreifender Freigabe und verfügbaren Systemdaten ab. Website-Budgets bleiben pro Gerät lokal."
 }

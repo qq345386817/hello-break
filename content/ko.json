@@ -314,10 +314,10 @@
   "insights.noManaged": "한도를 먼저 설정하거나 필터를 꺼서 모든 기록을 보세요.",
   "insights.notAuthorized": "시스템 리포트에는 스크린 타임 권한이 필요합니다. 아래 웹사이트와 집중 기록은 별도로 볼 수 있습니다.",
   "insights.apps": "관리 앱 사용량",
-  "insights.websites": "웹사이트 한도 사용량",
+  "insights.websites": "이 기기의 웹 사용 한도",
   "insights.minutes": "분",
   "insights.day": "날짜",
-  "insights.websiteNote": "설정한 Safari 한도 타이머만 기록합니다. 임시 사용은 별도이며 전체 방문 기록이 아닙니다.",
+  "insights.websiteNote": "이 기기에서 선택한 Safari 사이트의 한도만 측정합니다. 임시 사용은 별도입니다. 전체 방문 기록이 아니며 다른 기기와 동기화하지 않습니다.",
   "insights.localNote": "실제 기록만 표시합니다. 누락된 날은 사용량 0이 아닙니다. Mac에서는 HelloBreak가 실행 중이어야 하며 앱과 웹사이트 시간이 겹칠 수 있습니다.",
   "insights.sessions": "완료된 타이머 기록 %d개",
   "insights.usageEmpty": "아직 측정된 사용량이 없습니다. 관리 중인 앱이나 웹사이트를 사용하면 기록이 쌓입니다.",
@@ -325,5 +325,12 @@
   "insights.lessMinute": "1분 미만",
   "insights.topApps": "리포트의 앱",
   "insights.breaks": "안내 휴식과 임시 사용",
-  "insights.breakEmpty": "한도에 도달한 후 호흡 안내를 마치고 받은 임시 사용 기록이 표시됩니다."
+  "insights.breakEmpty": "한도에 도달한 후 호흡 안내를 마치고 받은 임시 사용 기록이 표시됩니다.",
+  "error.monitoring": "선택은 저장되었지만 시스템에서 한도를 활성화하지 못했습니다. 다시 시도해 주세요.",
+  "insights.openReport": "스크린 타임 리포트 보기",
+  "insights.reportOptions": "리포트 옵션",
+  "insights.deviceScope": "기기",
+  "insights.currentDevice": "이 기기",
+  "insights.sharedDevices": "공유 기기",
+  "insights.reportScopeNote": "기본값은 이 기기입니다. 공유 리포트는 Apple의 기기 간 공유 설정과 제공되는 시스템 데이터에 따라 달라집니다. 웹 사용 한도는 기기별로 따로 측정합니다."
 }

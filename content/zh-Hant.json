@@ -314,10 +314,10 @@
   "insights.noManaged": "請先設定應用程式或類別限額，或關閉此篩選以查看全部可用紀錄。",
   "insights.notAuthorized": "系統使用報告需要螢幕使用時間授權。下方的網站與專注紀錄可單獨查看。",
   "insights.apps": "受限應用程式用量",
-  "insights.websites": "網站額度用量",
+  "insights.websites": "本機網站額度用量",
   "insights.minutes": "分鐘",
   "insights.day": "日期",
-  "insights.websiteNote": "僅記錄 HelloBreak 已設定的 Safari 網站額度計時；臨時使用另計，這不是完整的 Safari 瀏覽歷史。",
+  "insights.websiteNote": "僅計算本機所選 Safari 網站的額度計時，臨時使用另計。這不是完整瀏覽記錄，也不會與其他裝置同步。",
   "insights.localNote": "僅顯示實際收集的紀錄；缺少資料不等於用量為零。Mac 用量需要 HelloBreak 保持執行，應用程式與網站用量可能重疊。",
   "insights.sessions": "紀錄中已完成 %d 個計時",
   "insights.usageEmpty": "暫時沒有可顯示的實測用量。使用已管理的應用程式或網站後，紀錄會逐步累積。",
@@ -325,5 +325,12 @@
   "insights.lessMinute": "不足 1 分鐘",
   "insights.topApps": "報告中的應用程式",
   "insights.breaks": "引導休息與臨時使用",
-  "insights.breakEmpty": "到達限額後，完成呼吸引導並取得臨時使用的紀錄會顯示在這裡。"
+  "insights.breakEmpty": "到達限額後，完成呼吸引導並取得臨時使用的紀錄會顯示在這裡。",
+  "error.monitoring": "選擇已保留，但系統尚未啟用限額。請重試。",
+  "insights.openReport": "檢視使用報告",
+  "insights.reportOptions": "報告選項",
+  "insights.deviceScope": "報告裝置",
+  "insights.currentDevice": "此裝置",
+  "insights.sharedDevices": "共享裝置",
+  "insights.reportScopeNote": "預設僅查看此裝置。共享裝置報告取決於 Apple 的「在裝置間共享」設定及系統提供的資料。網站額度仍由各裝置獨立計時。"
 }

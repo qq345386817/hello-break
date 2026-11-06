@@ -314,10 +314,10 @@
   "insights.noManaged": "Configura un límite o desactiva el filtro para ver toda la actividad disponible.",
   "insights.notAuthorized": "El informe necesita permiso de tiempo de uso. Los registros web y de enfoque son independientes.",
   "insights.apps": "Uso de apps gestionadas",
-  "insights.websites": "Uso del límite web",
+  "insights.websites": "Cuota web de este dispositivo",
   "insights.minutes": "Minutos",
   "insights.day": "Día",
-  "insights.websiteNote": "Registra el límite Safari configurado. El acceso temporal va aparte; no es un historial completo.",
+  "insights.websiteNote": "Solo mide la cuota de los sitios Safari elegidos en este dispositivo. El acceso temporal es independiente. No es el historial completo ni se sincroniza con otros dispositivos.",
   "insights.localNote": "Solo se muestran registros reales. Los días sin datos no equivalen a cero. En Mac, HelloBreak debe estar abierto; los totales pueden solaparse.",
   "insights.sessions": "Temporizadores completados: %d",
   "insights.usageEmpty": "Aún no hay uso medido. Los registros aparecen al usar apps o webs gestionadas.",
@@ -325,5 +325,12 @@
   "insights.lessMinute": "Menos de 1 min",
   "insights.topApps": "Apps del informe",
   "insights.breaks": "Pausas guiadas y acceso temporal",
-  "insights.breakEmpty": "Al alcanzar un límite, aquí aparecerán las pausas completadas y el acceso temporal."
+  "insights.breakEmpty": "Al alcanzar un límite, aquí aparecerán las pausas completadas y el acceso temporal.",
+  "error.monitoring": "Tu selección se ha guardado, pero el sistema no ha activado estos límites. Inténtalo de nuevo.",
+  "insights.openReport": "Ver informe de Tiempo de uso",
+  "insights.reportOptions": "Opciones del informe",
+  "insights.deviceScope": "Dispositivos",
+  "insights.currentDevice": "Este dispositivo",
+  "insights.sharedDevices": "Dispositivos compartidos",
+  "insights.reportScopeNote": "Por defecto, solo este dispositivo. Los informes compartidos dependen de Compartir entre dispositivos de Apple y de los datos disponibles. Las cuotas web siguen siendo locales."
 }
