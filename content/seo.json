@@ -1,218 +1,570 @@
 {
   "en-US": {
-    "homeTitle": "Screen Time & App Limits for iPhone and Mac",
-    "homeDescription": "Set a separate daily limit for each app with HelloBreak. Use Apple Screen Time on iPhone, window covers on Mac, and the Chrome extension for selected websites.",
+    "homeTitle": "Screen Time, App Limits & Focus",
+    "homeDescription": "Manage app limits, Safari websites and focus on iPhone, iPad and Mac. Take a guided break before continuing, and connect Chrome on Mac to share website time.",
     "helpTitle": "Help & Setup",
-    "helpDescription": "Set up HelloBreak app limits on iPhone and Mac, connect the Chrome extension, and understand privacy, temporary access and control limitations.",
+    "helpDescription": "Set app and category limits, enable Safari or connected Chrome, plan focus, and understand device-scoped reports, guided breaks and local website counters.",
     "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Read how HelloBreak stores app limits and connection records locally, uses the Chrome connector, and handles website hosting without built-in analytics.",
+    "privacyDescription": "How HelloBreak keeps rules, focus and break records on your device, isolates Apple Screen Time reports, and measures website allowances locally.",
     "faqHeading": "Common questions",
     "faq": [
       [
-        "What does HelloBreak do?",
-        "Set a separate daily limit for each app with HelloBreak. Use Apple Screen Time on iPhone, window covers on Mac, and the Chrome extension for selected websites. After reaching a limit, complete a 60-second guided breathing break to get 15 minutes of temporary access. Available once a day."
+        "What is HelloBreak?",
+        "HelloBreak is a personal screen-time management app for iPhone, iPad and Mac. It combines daily app limits, a separate website allowance, immediate or scheduled focus, usage insights and a guided break before temporary access."
       ],
       [
-        "How do iPhone and Mac limits differ?",
-        "iPhone uses Apple Screen Time system shields. The Mac version covers ordinary app windows and must stay running. Mac covers can be bypassed."
+        "Can different apps have different daily limits?",
+        "Yes. Each individually selected app can have its own daily allowance. A selected category shares its category allowance. On iOS, saving apps or categories starts daily monitoring automatically."
+      ],
+      [
+        "How do iPhone and Mac restrictions differ?",
+        "iPhone and iPad use Apple Screen Time system shields after the owner authorizes access. Mac uses Accessibility permission to cover managed app windows. Mac must stay running; quitting HelloBreak or revoking permission ends those covers."
       ],
       [
         "Can I limit one website instead of the whole browser?",
-        "Use the bundled Safari extension on iPhone, iPad or Mac; Chrome on Mac uses its extension and local connector. Add domains in HelloBreak. Selected sites share a website allowance separate from app limits. On Mac, Safari and Chrome share that allowance. Grant website access and avoid also limiting the whole browser as an app. Chrome also works independently without the Mac app. Configure websites and a daily allowance in the extension popup. Connecting the Mac app switches to its shared rules and imports today’s independent usage once."
+        "Yes. The bundled Safari extension manages selected domains and subdomains on iPhone, iPad and Mac, with site permission. Selected websites share a pool separate from app limits. On the same Mac, connected Chrome and Safari share the Mac website pool. Without the app connection, Chrome uses its own local pool configured in its popup. This does not synchronize quotas between devices."
       ],
       [
-        "Do I need an account or cloud sync?",
-        "No account is required. Rules and connection records stay on your device; HelloBreak has no advertising SDK or built-in analytics. There is no cross-device synchronization."
+        "What happens after an app reaches its limit?",
+        "The app is paused. Once a day, complete 60 seconds of guided breathing in the foreground to receive 15 minutes of temporary app access. Used time is not reset; exhausted apps are restricted again when access expires. This cannot bypass an active focus session and does not verify offline actions."
+      ],
+      [
+        "Can I schedule focus time?",
+        "Yes. Choose apps and websites independently of daily rules, optionally add an intention, and start a 15–240-minute session now or within seven days. Ending focus cancels that interval; daily rules then apply again. Mac scheduling requires HelloBreak to stay running."
+      ],
+      [
+        "Does the report include all my Apple ID devices?",
+        "The iOS Screen Time report defaults to This device. Shared devices is optional and uses the shared data Apple makes available. The scope stays visible above the report. Website allowance counters are separate local measurements, not all-device Apple totals. HelloBreak does not provide iCloud quota synchronization."
+      ],
+      [
+        "Do I need an account, and where is my data stored?",
+        "No account is required. Rules, focus sessions and guided-break records stay on your device. There are no ads or analytics SDKs. Raw Apple report data stays in the isolated report extension. You can stop management, revoke permissions or disable a browser extension."
       ]
-    ]
+    ],
+    "privacyLine": "On-device rules and records. No account, ads or analytics SDK.",
+    "featuresHeading": "A daily budget, a focus plan, a clearer view",
+    "features": [
+      [
+        "Individual app limits",
+        "Give each selected app its own daily allowance. A selected category shares one category allowance; saving the selection starts monitoring."
+      ],
+      [
+        "A separate website allowance",
+        "Manage selected Safari websites on iPhone, iPad and Mac. Connected Chrome shares this Mac’s website budget; standalone Chrome keeps its own."
+      ],
+      [
+        "Focus now or later",
+        "Choose distractions independently of daily limits. Start a 15–240-minute session now or schedule it within the next seven days."
+      ],
+      [
+        "Reports with a clear scope",
+        "View Apple Screen Time for this device or choose shared devices. Website allowance counters stay local and are shown separately."
+      ]
+    ],
+    "previewHeading": "Pause before continuing",
+    "previewFlow": "60 sec → 15 min",
+    "previewBody": "After a daily limit, complete a foreground breathing guide for temporary app access. Once per day; an active focus session stays protected.",
+    "advancedHeading": "Advanced: Chrome connector location",
+    "privacyScopeHeading": "Screen Time reports and local counters",
+    "privacyScopeBody": "Apple Screen Time reports default to this device, with an optional Shared devices scope. Raw report data stays inside Apple’s isolated report extension. HelloBreak’s website counters are local to the device or standalone Chrome extension; they are not an Apple ID-wide total or iCloud quota sync.",
+    "updatedLabel": "Updated November 6, 2026",
+    "localDataBody": "HelloBreak stores selected app/category tokens or app identifiers, website domains, limits and focus schedules, estimated active use, guided-break and temporary-access records, preferences and diagnostic state on this device. Updates do not erase existing local records. It does not read chats or import contacts."
   },
   "zh-Hans": {
-    "homeTitle": "iPhone 与 Mac 屏幕时间及 App 限额",
-    "homeDescription": "用 HelloBreak 为每个 App 设置独立每日限额。iPhone 使用 Apple 屏幕时间，Mac 遮挡应用窗口，Chrome 扩展可限制指定网站。",
+    "homeTitle": "屏幕时间管理、应用限额与专注计时",
+    "homeDescription": "用 HelloBreak 在 iPhone、iPad 和 Mac 管理应用限额、Safari 网站额度与专注时段。到限额后先完成引导休息；Mac 连通 Chrome 后可共用网站额度。",
     "helpTitle": "帮助与设置",
-    "helpDescription": "了解如何在 iPhone、Mac 设置 HelloBreak 应用限额、连接 Chrome 扩展，以及临时使用、隐私与控制范围。",
+    "helpDescription": "了解应用与类别额度、Safari 和 Chrome 设置、专注预约、引导休息，以及此设备／共享设备报告与本机网站计时的区别。",
     "privacyTitle": "隐私政策",
-    "privacyDescription": "了解 HelloBreak 如何在本机保存限额与连接记录、使用 Chrome 本地连接，以及不含内置统计的网站托管方式。",
+    "privacyDescription": "了解 HelloBreak 如何在本机保存规则、专注与休息记录，隔离 Apple 屏幕时间报告，并独立统计本机网站额度。",
     "faqHeading": "常见问题",
     "faq": [
       [
         "HelloBreak 是做什么的？",
-        "用 HelloBreak 为每个 App 设置独立每日限额。iPhone 使用 Apple 屏幕时间，Mac 遮挡应用窗口，Chrome 扩展可限制指定网站。 到限额后，完成 60 秒呼吸引导，即可临时使用 15 分钟。每天一次。"
+        "HelloBreak 是适用于 iPhone、iPad 和 Mac 的个人屏幕时间管理工具，结合应用每日限额、独立网站额度、立即或预约专注、使用复盘，以及临时继续使用前的引导休息。"
       ],
       [
-        "iPhone 和 Mac 的限制有何不同？",
-        "iPhone 使用 Apple 屏幕时间的系统遮罩。Mac 版遮挡普通应用窗口，需要保持运行；这种遮挡可被绕过。"
+        "可以为不同 App 设置不同的每日限额吗？",
+        "可以。单独选择的每个应用可设置自己的每日额度；选中的类别共享类别额度。在 iOS 保存应用或类别选择后，会自动开始每日监控。"
+      ],
+      [
+        "iPhone 和 Mac 的限制有什么不同？",
+        "iPhone 和 iPad 在设备所有者授权后使用 Apple 屏幕时间的系统遮罩。Mac 使用辅助功能权限遮挡受管理应用窗口，需要保持运行；退出 HelloBreak 或撤销权限后，窗口遮挡结束。"
       ],
       [
         "能只限制某个网站，而不限制整个浏览器吗？",
-        "在 iPhone、iPad 或 Mac 使用随 App 安装的 Safari 扩展；Mac 的 Chrome 使用独立扩展和本地连接组件。在 HelloBreak 添加域名，所选网站共用独立的网站额度。Mac 上 Safari 与 Chrome 共用该额度。请授予网站访问权限；若只需限制网站，不要同时限制整个浏览器 App。 Chrome 也可在未连接 Mac App 时独立运行，在扩展中配置网站和每日额度。连接主 App 后切换为共用规则，并将今天的独立用量合并一次。"
+        "可以。随附的 Safari 扩展在 iPhone、iPad 和 Mac 管理指定域名及子域名，需要网站访问权限。所选网站共享独立于应用限额的网站额度。同一台 Mac 上，连通的 Chrome 与 Safari 共用该网站额度；未连接主 App 时，Chrome 使用在扩展弹窗中设置的本地额度。这不代表跨设备同步。"
       ],
       [
-        "需要账号或云同步吗？",
-        "无需账号。规则与连接记录保存在设备本机，无广告 SDK 或内置统计。目前不提供跨设备同步。"
+        "应用达到限额后怎样继续使用？",
+        "应用会暂停。每天一次，在前台完成 60 秒引导呼吸，可获得 15 分钟临时应用使用时间。已用时间不会清零；到期后，已耗尽额度的应用恢复限制。不能绕过正在进行的专注，也不会核验线下行动。"
+      ],
+      [
+        "可以预约专注时间吗？",
+        "可以。独立选择应用和网站，可选填目标，立即开始 15–240 分钟专注，或预约未来七天内开始。结束专注只取消该时段，之后恢复每日规则。Mac 预约需要 HelloBreak 保持运行。"
+      ],
+      [
+        "报告会汇总同一 Apple ID 的所有设备吗？",
+        "iOS 屏幕时间报告默认选择“此设备”；可选“共享设备”，显示 Apple 提供的共享数据，页面持续标明范围。网站额度是单独的本机计时，不是所有设备的 Apple 用量总和。HelloBreak 不提供 iCloud 跨设备额度同步。"
+      ],
+      [
+        "需要账号吗？数据保存在哪里？",
+        "无需账号。规则、专注和引导休息记录保存在设备本机，没有广告或分析 SDK。Apple 原始报告数据保留在隔离报告扩展中。你可以停止管理、撤销权限或关闭浏览器扩展。"
       ]
-    ]
+    ],
+    "privacyLine": "规则与记录保存在本机。无需账号，没有广告或分析 SDK。",
+    "featuresHeading": "安排每日额度，留出专注时间，了解使用习惯",
+    "features": [
+      [
+        "不同应用，各有额度",
+        "为单独选择的应用分别设置每日额度；选中的类别共享类别额度。保存应用或类别选择后自动启用监控。"
+      ],
+      [
+        "网站单独限时",
+        "在 iPhone、iPad 和 Mac 管理 Safari 指定网站。连通的 Chrome 与这台 Mac 共用网站额度；独立 Chrome 使用自己的额度。"
+      ],
+      [
+        "立即专注，或提前预约",
+        "单独选择需要暂停的干扰项，不改动每日限额。可立即开始 15–240 分钟专注，或预约未来七天内开始。"
+      ],
+      [
+        "明确范围的使用报告",
+        "查看 Apple 提供的此设备报告，也可选择共享设备。网站额度用量单独展示，始终是本机计时。"
+      ]
+    ],
+    "previewHeading": "先休息，再有意识地继续",
+    "previewFlow": "60 秒 → 15 分钟",
+    "previewBody": "达到每日限额后，在前台完成引导呼吸，即可临时使用应用。每天一次；不会绕过正在进行的专注。",
+    "advancedHeading": "高级设置：Chrome 连接器位置",
+    "privacyScopeHeading": "屏幕时间报告与本机计数",
+    "privacyScopeBody": "Apple 屏幕时间报告默认查看此设备，可选择共享设备。原始报告数据保留在 Apple 的隔离报告扩展中。HelloBreak 网站计数保存在当前设备或独立 Chrome 扩展内，不是 Apple ID 下所有设备的总量，也不是 iCloud 额度同步。",
+    "updatedLabel": "更新于 2026 年 11 月 6 日",
+    "localDataBody": "HelloBreak 在本机保存所选应用／类别令牌或应用标识、网站域名、额度与专注计划、估计活跃用时、引导休息与临时使用记录、偏好和诊断状态。更新不会清除已有本地记录。App 不读取聊天，也不导入通讯录。"
   },
   "zh-Hant": {
-    "homeTitle": "iPhone 與 Mac 螢幕時間及 App 限額",
-    "homeDescription": "用 HelloBreak 為每個 App 設定獨立每日限額。iPhone 使用 Apple 螢幕時間，Mac 遮擋應用程式視窗，Chrome 擴充功能可限制指定網站。",
+    "homeTitle": "螢幕時間管理、App 限額與專注計時",
+    "homeDescription": "用 HelloBreak 在 iPhone、iPad 和 Mac 管理 App 限額、Safari 網站額度與專注時段。達到限額後先完成引導休息；Mac 連線 Chrome 後可共用網站額度。",
     "helpTitle": "說明與設定",
-    "helpDescription": "了解如何在 iPhone、Mac 設定 HelloBreak 限額、連接 Chrome 擴充功能，以及暫時使用、隱私與控制範圍。",
+    "helpDescription": "了解 App 與類別額度、Safari 和 Chrome 設定、專注預約、引導休息，以及此裝置／共享裝置報告與本機網站計時的差異。",
     "privacyTitle": "隱私權政策",
-    "privacyDescription": "了解 HelloBreak 如何在本機儲存限額與連結記錄、使用 Chrome 本機連接，以及不含內建分析的網站託管方式。",
+    "privacyDescription": "了解 HelloBreak 如何在本機儲存規則、專注與休息紀錄，隔離 Apple 螢幕時間報告，並獨立統計本機網站額度。",
     "faqHeading": "常見問題",
     "faq": [
       [
         "HelloBreak 有什麼功能？",
-        "用 HelloBreak 為每個 App 設定獨立每日限額。iPhone 使用 Apple 螢幕時間，Mac 遮擋應用程式視窗，Chrome 擴充功能可限制指定網站。 到額度後，完成 60 秒呼吸引導，即可暫時使用 15 分鐘。每天一次。"
+        "HelloBreak 是適用於 iPhone、iPad 和 Mac 的個人螢幕時間管理工具，結合 App 每日限額、獨立網站額度、立即或預約專注、使用回顧，以及暫時繼續使用前的引導休息。"
+      ],
+      [
+        "可以為不同 App 設定不同的每日限額嗎？",
+        "可以。個別選取的每個 App 可設定自己的每日額度；選取的類別共用類別額度。在 iOS 儲存 App 或類別選擇後，會自動開始每日監控。"
       ],
       [
         "iPhone 和 Mac 的限制有何不同？",
-        "iPhone 使用 Apple 螢幕時間的系統遮罩。Mac 版遮擋一般應用程式視窗，需要保持執行；這種遮擋可被繞過。"
+        "iPhone 和 iPad 在裝置擁有者授權後使用 Apple 螢幕時間的系統遮罩。Mac 使用輔助使用權限遮住受管理 App 的視窗，需要保持執行；結束 HelloBreak 或撤銷權限後，視窗遮擋結束。"
       ],
       [
         "可以只限制特定網站嗎？",
-        "在 iPhone、iPad 或 Mac 使用隨 App 安裝的 Safari 延伸功能；Mac 的 Chrome 使用獨立延伸功能和本機連線元件。在 HelloBreak 新增網域，所選網站共用獨立網站額度。Mac 上 Safari 與 Chrome 共用該額度。請授予網站取用權限；若只需限制網站，勿同時限制整個瀏覽器 App。 Chrome 也可在未連線 Mac App 時獨立執行，在擴充功能中設定網站與每日額度。連線主 App 後切換為共用規則，並將今天的獨立用量合併一次。"
+        "可以。隨附的 Safari 延伸功能在 iPhone、iPad 和 Mac 管理指定網域及子網域，需要網站取用權限。所選網站共用獨立於 App 限額的網站額度。同一台 Mac 上，已連線的 Chrome 與 Safari 共用該額度；未連線主 App 時，Chrome 使用在擴充功能彈出視窗中設定的本機額度。這不代表跨裝置同步。"
       ],
       [
-        "需要帳號或雲端同步嗎？",
-        "無需帳號。規則與連結記錄儲存在裝置本機，無廣告 SDK 或內建分析。目前不提供跨裝置同步。"
+        "App 達到限額後如何繼續使用？",
+        "App 會暫停。每天一次，在前景完成 60 秒引導呼吸，可獲得 15 分鐘暫時使用時間。已用時間不會歸零；到期後，已耗盡額度的 App 恢復限制。不能繞過進行中的專注，也不會驗證離線行動。"
+      ],
+      [
+        "可以預約專注時間嗎？",
+        "可以。獨立選擇 App 和網站，可選填目標，立即開始 15–240 分鐘專注，或預約未來七天內開始。結束專注只取消該時段，之後恢復每日規則。Mac 預約需要 HelloBreak 保持執行。"
+      ],
+      [
+        "報告會加總同一 Apple ID 的所有裝置嗎？",
+        "iOS 螢幕時間報告預設選擇「此裝置」；可選「共享裝置」，顯示 Apple 提供的共享資料，頁面持續標明範圍。網站額度是獨立的本機計時，並非所有裝置的 Apple 用量總和。HelloBreak 不提供 iCloud 跨裝置額度同步。"
+      ],
+      [
+        "需要帳號嗎？資料儲存在哪裡？",
+        "無需帳號。規則、專注與引導休息紀錄儲存在裝置本機，沒有廣告或分析 SDK。Apple 原始報告資料保留在隔離報告延伸功能中。你可以停止管理、撤銷權限或停用瀏覽器擴充功能。"
       ]
-    ]
+    ],
+    "privacyLine": "規則與紀錄儲存在本機。無需帳號，沒有廣告或分析 SDK。",
+    "featuresHeading": "安排每日額度，留出專注時間，了解使用習慣",
+    "features": [
+      [
+        "不同 App，各有額度",
+        "為個別選取的 App 設定每日額度；選取的類別共用類別額度。儲存 App 或類別選擇後自動啟用監控。"
+      ],
+      [
+        "網站獨立限時",
+        "在 iPhone、iPad 和 Mac 管理 Safari 指定網站。已連線的 Chrome 與這台 Mac 共用網站額度；獨立 Chrome 使用自己的額度。"
+      ],
+      [
+        "立即專注，或提前預約",
+        "獨立選擇要暫停的干擾，不改動每日限額。立即開始 15–240 分鐘專注，或預約未來七天內開始。"
+      ],
+      [
+        "範圍明確的使用報告",
+        "查看 Apple 提供的此裝置報告，也可選擇共享裝置。網站額度用量獨立顯示，始終是本機計時。"
+      ]
+    ],
+    "previewHeading": "先休息，再有意識地繼續",
+    "previewFlow": "60 秒 → 15 分鐘",
+    "previewBody": "達到每日限額後，在前景完成引導呼吸，即可暫時使用 App。每天一次；不會繞過進行中的專注。",
+    "advancedHeading": "進階設定：Chrome 連接器位置",
+    "privacyScopeHeading": "螢幕時間報告與本機計數",
+    "privacyScopeBody": "Apple 螢幕時間報告預設查看此裝置，可選擇共享裝置。原始報告資料保留在 Apple 的隔離報告延伸功能內。HelloBreak 網站計數儲存在目前裝置或獨立 Chrome 擴充功能中，並非 Apple ID 下所有裝置的總量，也不是 iCloud 額度同步。",
+    "updatedLabel": "更新於 2026 年 11 月 6 日",
+    "localDataBody": "HelloBreak 在本機儲存所選 App／類別權杖或 App 識別碼、網站網域、額度與專注計畫、估計活躍用時、引導休息與暫時使用紀錄、偏好與診斷狀態。更新不會清除既有本機紀錄。App 不讀取聊天，也不匯入通訊錄。"
   },
   "es": {
-    "homeTitle": "Tiempo de pantalla y límites de apps para iPhone y Mac",
-    "homeDescription": "Configura un límite diario independiente para cada app con HelloBreak. Usa Tiempo de uso en iPhone, cubiertas de ventanas en Mac y la extensión de Chrome para sitios concretos.",
+    "homeTitle": "Límites de apps, tiempo de uso y concentración",
+    "homeDescription": "Gestiona límites de apps, sitios de Safari y concentración en iPhone, iPad y Mac. Haz una pausa guiada antes de continuar y conecta Chrome al Mac para compartir la cuota web.",
     "helpTitle": "Ayuda y configuración",
-    "helpDescription": "Configura los límites de HelloBreak en iPhone y Mac, conecta Chrome y conoce la privacidad, el acceso temporal y las limitaciones.",
+    "helpDescription": "Configura apps, categorías, Safari y Chrome; programa concentración y distingue informes de este dispositivo, dispositivos compartidos y contadores web locales.",
     "privacyTitle": "Política de privacidad",
-    "privacyDescription": "Descubre cómo HelloBreak guarda límites y registros localmente y utiliza el conector de Chrome, sin analítica integrada.",
+    "privacyDescription": "Cómo HelloBreak guarda reglas y registros locales, aísla los informes de Apple y mide las cuotas web en cada dispositivo.",
     "faqHeading": "Preguntas frecuentes",
     "faq": [
       [
-        "¿Qué hace HelloBreak?",
-        "Configura un límite diario independiente para cada app con HelloBreak. Usa Tiempo de uso en iPhone, cubiertas de ventanas en Mac y la extensión de Chrome para sitios concretos. Al alcanzar un límite, completa 60 segundos de respiración guiada para obtener 15 minutos de acceso temporal. Una vez al día."
+        "¿Qué es HelloBreak?",
+        "Es una herramienta personal de gestión del tiempo de pantalla para iPhone, iPad y Mac: límites diarios de apps, cuota web separada, concentración inmediata o programada, informes y una pausa guiada antes del acceso temporal."
+      ],
+      [
+        "¿Pueden las apps tener límites distintos?",
+        "Sí. Cada app seleccionada individualmente puede tener su propia cuota diaria. Una categoría comparte su cuota de categoría. En iOS, guardar apps o categorías inicia la supervisión diaria automáticamente."
       ],
       [
         "¿En qué se diferencian iPhone y Mac?",
-        "iPhone usa las pantallas de bloqueo de Tiempo de uso de Apple. Mac cubre ventanas normales y debe seguir abierto; esas cubiertas se pueden eludir."
+        "iPhone y iPad usan las pantallas de restricción de Tiempo de uso de Apple tras la autorización del propietario. Mac cubre ventanas con permiso de Accesibilidad y debe seguir abierto. Cerrar HelloBreak o retirar el permiso termina esas cubiertas."
       ],
       [
         "¿Puedo limitar un sitio sin limitar todo el navegador?",
-        "Usa la extensión Safari incluida en iPhone, iPad o Mac; Chrome en Mac usa su extensión y conector local. Añade dominios en HelloBreak. Los sitios comparten una cuota separada de las apps; Safari y Chrome comparten esa cuota en Mac. Permite el acceso a los sitios y no limites también el navegador completo como app. Chrome también funciona sin la app de Mac. Configura sitios y tiempo diario en su ventana. Al conectar la app, usa sus reglas compartidas e incorpora una vez el uso independiente de hoy."
+        "Sí. La extensión Safari incluida gestiona dominios y subdominios en iPhone, iPad y Mac con permiso para los sitios. Los sitios comparten una cuota separada de las apps. En el mismo Mac, Safari y Chrome conectado comparten la cuota del Mac; sin conexión, Chrome utiliza la cuota local configurada en su ventana. No se sincroniza entre dispositivos."
       ],
       [
-        "¿Necesito una cuenta o sincronización en la nube?",
-        "No necesitas cuenta. Las reglas y los registros se guardan en tu dispositivo, sin SDK publicitario ni analítica integrada. No hay sincronización entre dispositivos."
+        "¿Qué ocurre al alcanzar el límite de una app?",
+        "La app se pausa. Una vez al día, completar 60 segundos de respiración guiada en primer plano permite 15 minutos de uso temporal. El tiempo usado no se reinicia y las apps agotadas vuelven a restringirse al caducar. No evita la concentración activa ni verifica acciones fuera de la pantalla."
+      ],
+      [
+        "¿Puedo programar tiempo de concentración?",
+        "Sí. Elige apps y sitios aparte de las reglas diarias, añade una intención opcional e inicia 15–240 minutos ahora o dentro de siete días. Finalizar cancela ese intervalo y restablece las reglas diarias. Mac debe permanecer abierto."
+      ],
+      [
+        "¿El informe suma todos los dispositivos del Apple ID?",
+        "El informe iOS muestra Este dispositivo por defecto. Dispositivos compartidos es opcional y utiliza los datos compartidos que facilita Apple. El alcance permanece visible. Las cuotas web son mediciones locales separadas, no totales de todos los dispositivos. HelloBreak no sincroniza cuotas por iCloud."
+      ],
+      [
+        "¿Necesito una cuenta y dónde se guardan los datos?",
+        "No necesitas cuenta. Reglas, sesiones y pausas guiadas se guardan en tu dispositivo, sin anuncios ni SDK de analítica. Los datos originales de Apple permanecen en la extensión aislada. Puedes detener la gestión, retirar permisos o desactivar la extensión."
       ]
-    ]
+    ],
+    "privacyLine": "Reglas y registros en tu dispositivo. Sin cuenta, anuncios ni SDK de analítica.",
+    "featuresHeading": "Un presupuesto diario y tiempo para concentrarte",
+    "features": [
+      [
+        "Límites por app",
+        "Asigna un límite diario a cada app seleccionada. Las categorías comparten su propia cuota; guardar la selección inicia la supervisión."
+      ],
+      [
+        "Una cuota web independiente",
+        "Gestiona sitios de Safari en iPhone, iPad y Mac. Chrome conectado comparte la cuota del Mac; Chrome independiente usa la suya."
+      ],
+      [
+        "Concéntrate ahora o después",
+        "Elige distracciones sin cambiar las reglas diarias. Inicia una sesión de 15–240 minutos o prográmala dentro de siete días."
+      ],
+      [
+        "Informes con alcance claro",
+        "Consulta Tiempo de uso de este dispositivo o los datos compartidos de Apple. Los contadores web se muestran aparte y siguen siendo locales."
+      ]
+    ],
+    "previewHeading": "Haz una pausa antes de continuar",
+    "previewFlow": "60 s → 15 min",
+    "previewBody": "Al alcanzar el límite diario, completa una guía de respiración en primer plano para usar temporalmente las apps. Una vez al día; no evita una sesión de concentración activa.",
+    "advancedHeading": "Avanzado: ubicación del conector de Chrome",
+    "privacyScopeHeading": "Informes de Apple y contadores locales",
+    "privacyScopeBody": "El informe de Apple muestra Este dispositivo por defecto y permite elegir Dispositivos compartidos. Sus datos permanecen en la extensión aislada de informes. Las cuotas web se miden en este dispositivo o en Chrome independiente; no son el total del Apple ID ni una sincronización por iCloud.",
+    "updatedLabel": "Actualizado el 6 de noviembre de 2026",
+    "localDataBody": "HelloBreak guarda en este dispositivo tokens o identificadores de apps y categorías, dominios, límites y planes de concentración, uso activo estimado, pausas guiadas, accesos temporales, preferencias y diagnóstico. Las actualizaciones no borran registros locales existentes. No lee chats ni importa contactos."
   },
   "ja": {
-    "homeTitle": "iPhone・Macのスクリーンタイムとアプリ利用制限",
-    "homeDescription": "HelloBreakでアプリごとに1日の利用上限を設定。iPhoneではAppleのスクリーンタイム、Macではウインドウのカバー、Chrome拡張機能では指定サイトを管理します。",
+    "homeTitle": "アプリの利用制限・スクリーンタイム・集中タイマー",
+    "homeDescription": "iPhone・iPad・Macでアプリ上限、SafariのWeb利用枠、集中時間を管理。再開前に呼吸ガイドを行い、Macでは接続したChromeとWeb利用枠を共有できます。",
     "helpTitle": "ヘルプと設定",
-    "helpDescription": "iPhone・Macの利用制限、Chromeとの接続、プライバシー、一時利用、制限の範囲を確認できます。",
+    "helpDescription": "アプリとカテゴリの上限、SafariとChrome、集中予約、呼吸ガイド、このデバイス／共有デバイスのレポートと端末内のWeb計測を説明します。",
     "privacyTitle": "プライバシーポリシー",
-    "privacyDescription": "利用上限と記録の端末内保存、Chromeのローカル接続、解析機能を組み込まないサイト運営について説明します。",
+    "privacyDescription": "ルールと記録の端末内保存、Appleレポートの隔離、端末ごとのWeb利用枠の計測について説明します。",
     "faqHeading": "よくある質問",
     "faq": [
       [
-        "HelloBreakは何をするアプリですか？",
-        "HelloBreakでアプリごとに1日の利用上限を設定。iPhoneではAppleのスクリーンタイム、Macではウインドウのカバー、Chrome拡張機能では指定サイトを管理します。 上限に達したら、60秒の呼吸ガイドを完了すると15分間だけ利用できます。1日1回です。"
+        "HelloBreakはどんなアプリですか？",
+        "iPhone・iPad・Mac向けの個人用スクリーンタイム管理アプリです。毎日のアプリ上限、独立したWeb枠、即時・予約の集中、利用の振り返り、一時利用の前の呼吸ガイドを組み合わせています。"
       ],
       [
-        "iPhoneとMacでは制限がどう違いますか？",
-        "iPhoneはAppleのスクリーンタイムによるシステム遮蔽を使います。Macは通常のアプリのウインドウを覆い、起動したままにする必要があります。Macのカバーは回避できます。"
+        "アプリごとに違う上限を設定できますか？",
+        "はい。個別に選んだアプリはそれぞれ毎日の枠を設定できます。選んだカテゴリはカテゴリ枠を共有します。iOSではアプリやカテゴリを保存すると毎日の監視を自動で開始します。"
       ],
       [
-        "ブラウザ全体ではなく特定サイトを制限できますか？",
-        "iPhone、iPad、Macでは同梱のSafari機能拡張を、MacのChromeでは専用機能拡張とローカルコネクタを使います。HelloBreakにドメインを追加すると、選んだサイトはアプリとは別の上限を共有します。MacのSafariとChromeは同じWeb上限を共有します。サイトへのアクセスを許可し、サイトのみを制限する場合はブラウザ全体をアプリとして選ばないでください。 Chrome は Mac アプリなしでも利用でき、拡張機能でサイトと1日の上限を設定できます。接続すると Mac の共有ルールに切り替わり、今日の単独利用時間を1回だけ加算します。"
+        "iPhoneとMacの制限はどう違いますか？",
+        "iPhone・iPadは所有者の許可後、Appleスクリーンタイムのシステム遮蔽を使います。Macはアクセシビリティ権限で対象のウインドウを覆い、起動を続ける必要があります。HelloBreakの終了や権限の取消でカバーは終了します。"
       ],
       [
-        "アカウントやクラウド同期は必要ですか？",
-        "アカウントは不要です。ルールと記録は端末内に保存され、広告SDKや組み込みの解析機能はありません。端末間の同期には対応していません。"
+        "ブラウザ全体ではなくサイトだけを制限できますか？",
+        "はい。同梱のSafari拡張はiPhone・iPad・Macの指定ドメインとサブドメインを、サイトの許可を得て管理します。サイトはアプリとは別の枠を共有します。同じMacのSafariと接続済みChromeはMacの枠を共有し、未接続のChromeはポップアップで設定した端末内の枠を使います。端末間同期ではありません。"
+      ],
+      [
+        "アプリが上限に達したらどうなりますか？",
+        "アプリを一時停止します。1日1回、前面で60秒の呼吸ガイドを完了すると15分間だけ使えます。利用時間はリセットせず、期限後に枠を使い切ったアプリを再制限します。実行中の集中の回避や、オフライン行動の確認は行いません。"
+      ],
+      [
+        "集中時間を予約できますか？",
+        "はい。毎日のルールとは別にアプリとサイトを選び、任意の目標を追加し、15–240分を今すぐ、または7日以内に開始できます。終了するとその時間枠だけを取り消し、毎日のルールに戻ります。Macでは起動を続ける必要があります。"
+      ],
+      [
+        "Apple IDの全デバイスが合計されますか？",
+        "iOSレポートの標準は「このデバイス」です。「共有デバイス」は任意で、Appleが提供する共有データを使います。対象は画面上に表示されます。Web枠は別の端末内計測で、全デバイスの合計ではありません。HelloBreak独自のiCloud枠同期はありません。"
+      ],
+      [
+        "アカウントは必要ですか？データはどこに保存しますか？",
+        "不要です。ルール、集中、呼吸ガイドの記録は端末内に保存し、広告や解析SDKはありません。Appleの元データは隔離されたレポート拡張内に留まります。管理の停止、権限の取消、ブラウザ拡張の無効化が可能です。"
       ]
-    ]
+    ],
+    "privacyLine": "ルールと記録は端末内に保存。アカウント、広告、解析SDKは不要です。",
+    "featuresHeading": "毎日の上限と、集中するための計画",
+    "features": [
+      [
+        "アプリごとの上限",
+        "個別に選択したアプリに毎日の利用枠を設定。選択カテゴリはカテゴリ枠を共有し、保存すると監視を開始します。"
+      ],
+      [
+        "Web用の独立した枠",
+        "iPhone・iPad・MacのSafariサイトを管理。接続したChromeはMacの枠を共有し、単独Chromeは独自の枠を使います。"
+      ],
+      [
+        "今すぐ集中、または予約",
+        "毎日のルールを変えずに対象を選択。15–240分の集中を今すぐ、または7日以内に予約できます。"
+      ],
+      [
+        "対象が分かるレポート",
+        "このデバイス、またはAppleの共有デバイスの利用を確認。Webカウンタは別表示で、端末内の計測です。"
+      ]
+    ],
+    "previewHeading": "続ける前にひと休み",
+    "previewFlow": "60秒 → 15分",
+    "previewBody": "毎日の上限後、前面で呼吸ガイドを完了すると一時的にアプリを使えます。1日1回で、実行中の集中は回避できません。",
+    "advancedHeading": "詳細：Chromeコネクタの保存場所",
+    "privacyScopeHeading": "Appleレポートと端末内のカウンタ",
+    "privacyScopeBody": "Appleレポートは標準でこのデバイスを表示し、共有デバイスも選択できます。元データは隔離されたレポート拡張内に留まります。Web枠は端末内または単独Chrome内の計測で、Apple ID全体の合計やiCloudによる枠の同期ではありません。",
+    "updatedLabel": "更新日：2026年11月6日",
+    "localDataBody": "選択したアプリ・カテゴリのトークンや識別子、ドメイン、上限と集中予定、推定利用時間、呼吸ガイドと一時利用の記録、設定、診断状態を端末内に保存します。更新しても既存の端末内記録は消去しません。チャットや連絡先は読み取りません。"
   },
   "ko": {
-    "homeTitle": "iPhone과 Mac의 스크린 타임 및 앱 사용 제한",
-    "homeDescription": "HelloBreak로 앱마다 별도의 일일 한도를 설정하세요. iPhone은 Apple 스크린 타임, Mac은 창 가리기, Chrome 확장 프로그램은 선택한 웹사이트를 관리합니다.",
+    "homeTitle": "스크린 타임, 앱 사용 제한과 집중 타이머",
+    "homeDescription": "iPhone, iPad, Mac에서 앱 제한, Safari 웹 한도와 집중 시간을 관리하세요. 재개 전 호흡 안내를 완료하고 Mac의 Chrome을 연결해 웹 한도를 공유할 수 있습니다.",
     "helpTitle": "도움말 및 설정",
-    "helpDescription": "iPhone과 Mac의 앱 한도 설정, Chrome 연결, 개인정보 보호, 임시 사용과 제한 범위를 확인하세요.",
+    "helpDescription": "앱·카테고리 한도, Safari와 Chrome 설정, 집중 예약, 호흡 안내, 이 기기·공유 기기 리포트와 로컬 웹 측정의 차이를 확인하세요.",
     "privacyTitle": "개인정보 처리방침",
-    "privacyDescription": "HelloBreak의 한도 및 기록 기기 내 저장, Chrome 로컬 연결, 내장 분석 없는 웹사이트 운영을 설명합니다.",
+    "privacyDescription": "규칙과 기록의 기기 내 저장, Apple 리포트의 격리, 기기별 웹 사용 한도 측정에 관해 설명합니다.",
     "faqHeading": "자주 묻는 질문",
     "faq": [
       [
         "HelloBreak는 어떤 앱인가요?",
-        "HelloBreak로 앱마다 별도의 일일 한도를 설정하세요. iPhone은 Apple 스크린 타임, Mac은 창 가리기, Chrome 확장 프로그램은 선택한 웹사이트를 관리합니다. 한도에 도달한 뒤 60초 호흡 안내를 완료하면 15분 동안 사용할 수 있어요. 하루 한 번 가능해요."
+        "iPhone, iPad, Mac의 개인용 스크린 타임 관리 앱입니다. 앱별 일일 한도, 별도 웹 한도, 즉시·예약 집중, 사용 돌아보기, 임시 사용 전 호흡 안내를 제공합니다."
+      ],
+      [
+        "앱마다 다른 일일 한도를 설정할 수 있나요?",
+        "네. 개별 선택한 앱마다 자체 일일 한도를 정할 수 있습니다. 선택한 카테고리는 카테고리 한도를 공유합니다. iOS에서 앱이나 카테고리를 저장하면 일일 모니터링을 자동으로 시작합니다."
       ],
       [
         "iPhone과 Mac의 제한은 어떻게 다른가요?",
-        "iPhone은 Apple 스크린 타임의 시스템 차단 화면을 사용합니다. Mac은 일반 앱 창을 가리며 계속 실행해야 합니다. Mac의 가리기는 우회할 수 있습니다."
+        "iPhone과 iPad는 소유자 승인 후 Apple 스크린 타임의 시스템 차단 화면을 사용합니다. Mac은 손쉬운 사용 권한으로 대상 창을 가리며 계속 실행되어야 합니다. HelloBreak를 종료하거나 권한을 취소하면 가리기가 끝납니다."
       ],
       [
-        "브라우저 전체 대신 특정 사이트만 제한할 수 있나요?",
-        "iPhone, iPad, Mac에서 함께 제공되는 Safari 확장을 사용하세요. Mac의 Chrome은 별도 확장과 로컬 커넥터를 사용해요. HelloBreak에 도메인을 추가하면 선택한 사이트가 앱과 별도의 한도를 공유해요. Mac에서는 Safari와 Chrome이 이 한도를 함께 사용해요. 사이트 접근을 허용하고 사이트만 제한하려면 브라우저 전체를 제한 앱으로 선택하지 마세요. Chrome은 Mac 앱 없이도 사용할 수 있어요. 확장 프로그램에서 사이트와 일일 한도를 설정하세요. 연결하면 공유 규칙으로 전환하고 오늘의 독립 사용 시간을 한 번만 합산해요."
+        "브라우저 전체 대신 사이트만 제한할 수 있나요?",
+        "네. 포함된 Safari 확장은 사이트 권한을 받아 iPhone, iPad, Mac에서 지정 도메인과 하위 도메인을 관리합니다. 사이트는 앱과 별도 한도를 공유합니다. 같은 Mac에서 Safari와 연결된 Chrome은 Mac 한도를 공유하며, 연결되지 않은 Chrome은 팝업에서 정한 자체 로컬 한도를 사용합니다. 기기 간 동기화가 아닙니다."
       ],
       [
-        "계정이나 클라우드 동기화가 필요한가요?",
-        "계정은 필요하지 않습니다. 규칙과 기록은 기기에 저장되며 광고 SDK와 내장 분석은 없습니다. 기기 간 동기화는 제공하지 않습니다."
+        "앱이 한도에 도달하면 어떻게 되나요?",
+        "앱이 일시 중지됩니다. 하루 한 번, 전경에서 60초 호흡 안내를 완료하면 15분 동안 임시 사용이 가능합니다. 사용 시간이 초기화되지는 않으며 만료 후 소진된 앱은 다시 제한됩니다. 진행 중인 집중을 우회하거나 화면 밖 행동을 검증하지 않습니다."
+      ],
+      [
+        "집중 시간을 예약할 수 있나요?",
+        "네. 일일 규칙과 별도로 앱과 사이트를 선택하고 선택 목표를 적은 뒤 15–240분을 즉시 또는 7일 이내로 예약하세요. 종료하면 해당 구간만 취소되고 일일 규칙이 적용됩니다. Mac에서는 앱이 계속 실행되어야 합니다."
+      ],
+      [
+        "Apple ID의 모든 기기 사용량이 합산되나요?",
+        "iOS 리포트는 기본적으로 이 기기를 표시합니다. 공유 기기는 선택 사항이며 Apple이 제공하는 공유 데이터를 사용합니다. 범위는 화면에 계속 표시됩니다. 웹 한도는 별도 로컬 측정이며 모든 기기의 합계가 아닙니다. HelloBreak는 iCloud 한도 동기화를 제공하지 않습니다."
+      ],
+      [
+        "계정이 필요한가요? 데이터는 어디에 저장되나요?",
+        "계정이 필요하지 않습니다. 규칙, 집중과 호흡 안내 기록은 기기에 저장되며 광고와 분석 SDK가 없습니다. Apple 원본 데이터는 격리된 리포트 확장에 남습니다. 관리를 중지하고 권한을 취소하거나 브라우저 확장을 비활성화할 수 있습니다."
       ]
-    ]
+    ],
+    "privacyLine": "규칙과 기록은 기기에 저장됩니다. 계정, 광고, 분석 SDK가 없습니다.",
+    "featuresHeading": "일일 한도를 정하고 집중 시간을 계획하세요",
+    "features": [
+      [
+        "앱별 일일 한도",
+        "개별 선택 앱마다 한도를 정하세요. 선택한 카테고리는 카테고리 한도를 공유하며 저장하면 모니터링을 시작합니다."
+      ],
+      [
+        "별도의 웹 사용 한도",
+        "iPhone, iPad, Mac의 Safari 사이트를 관리합니다. 연결된 Chrome은 Mac 한도를 공유하고 독립 Chrome은 자체 한도를 사용합니다."
+      ],
+      [
+        "지금 집중하거나 예약하기",
+        "일일 규칙을 바꾸지 않고 대상을 선택하세요. 15–240분 집중을 즉시 시작하거나 7일 이내로 예약할 수 있습니다."
+      ],
+      [
+        "범위가 명확한 리포트",
+        "이 기기 또는 Apple의 공유 기기 사용량을 확인합니다. 웹 카운터는 따로 표시되며 로컬 측정입니다."
+      ]
+    ],
+    "previewHeading": "계속하기 전에 잠깐 쉬세요",
+    "previewFlow": "60초 → 15분",
+    "previewBody": "일일 한도 후 앱을 잠시 사용하려면 전경에서 호흡 안내를 완료하세요. 하루 한 번이며 진행 중인 집중을 우회하지 않습니다.",
+    "advancedHeading": "고급: Chrome 연결 도우미 위치",
+    "privacyScopeHeading": "Apple 리포트와 로컬 카운터",
+    "privacyScopeBody": "Apple 리포트는 기본적으로 이 기기를 표시하며 공유 기기도 선택할 수 있습니다. 원본 데이터는 격리된 리포트 확장에 남습니다. 웹 한도는 기기 또는 독립 Chrome의 로컬 측정이며 Apple ID 전체 합계나 iCloud 한도 동기화가 아닙니다.",
+    "updatedLabel": "2026년 11월 6일 업데이트",
+    "localDataBody": "선택한 앱·카테고리 토큰이나 식별자, 도메인, 한도와 집중 계획, 추정 활성 시간, 호흡 안내와 임시 사용 기록, 설정 및 진단 상태를 기기에 저장합니다. 업데이트는 기존 로컬 기록을 지우지 않습니다. 채팅을 읽거나 연락처를 가져오지 않습니다."
   },
   "fr": {
-    "homeTitle": "Temps d’écran et limites d’apps pour iPhone et Mac",
-    "homeDescription": "Définissez une limite quotidienne par app avec HelloBreak : Temps d’écran sur iPhone, fenêtres masquées sur Mac et extension Chrome pour les sites choisis.",
+    "homeTitle": "Temps d’écran, limites d’apps et concentration",
+    "homeDescription": "Gérez apps, sites Safari et concentration sur iPhone, iPad et Mac. Faites une pause guidée avant de continuer et connectez Chrome au Mac pour partager le quota web.",
     "helpTitle": "Aide et configuration",
-    "helpDescription": "Configurez les limites sur iPhone et Mac, connectez Chrome et découvrez la confidentialité, l’accès temporaire et les limites du contrôle.",
+    "helpDescription": "Configurez apps, catégories, Safari et Chrome, programmez la concentration et distinguez rapports de cet appareil, appareils partagés et compteurs web locaux.",
     "privacyTitle": "Politique de confidentialité",
-    "privacyDescription": "Découvrez le stockage local des règles et des tentatives, le connecteur Chrome et le site sans analyse intégrée.",
+    "privacyDescription": "Comment HelloBreak conserve règles et relevés sur l’appareil, isole les rapports Apple et mesure localement les quotas web.",
     "faqHeading": "Questions fréquentes",
     "faq": [
       [
-        "À quoi sert HelloBreak ?",
-        "Définissez une limite quotidienne par app avec HelloBreak : Temps d’écran sur iPhone, fenêtres masquées sur Mac et extension Chrome pour les sites choisis. Après une limite, terminez 60 secondes de respiration guidée pour obtenir 15 minutes d’accès temporaire. Une fois par jour."
+        "Qu’est-ce que HelloBreak ?",
+        "Un outil personnel de gestion du temps d’écran sur iPhone, iPad et Mac : limites quotidiennes des apps, quota web distinct, concentration immédiate ou programmée, bilans et pause guidée avant un accès temporaire."
       ],
       [
-        "Quelle est la différence entre iPhone et Mac ?",
-        "iPhone utilise les écrans de protection de Temps d’écran d’Apple. Sur Mac, HelloBreak masque les fenêtres ordinaires et doit rester ouvert. Ces masques peuvent être contournés."
+        "Les apps peuvent-elles avoir des limites différentes ?",
+        "Oui. Chaque app choisie individuellement peut avoir son propre quota quotidien. Une catégorie partage son quota de catégorie. Sur iOS, enregistrer les apps ou catégories lance automatiquement le suivi quotidien."
       ],
       [
-        "Puis-je limiter un site sans bloquer tout le navigateur ?",
-        "Utilisez l’extension Safari incluse sur iPhone, iPad ou Mac ; Chrome sur Mac utilise son extension et son connecteur local. Ajoutez des domaines dans HelloBreak. Les sites partagent un quota distinct des apps ; Safari et Chrome partagent ce quota sur Mac. Autorisez l’accès aux sites et ne limitez pas aussi le navigateur entier comme app. Chrome fonctionne aussi sans l’app Mac. Réglez les sites et le quota dans sa fenêtre. La connexion utilise les règles partagées et ajoute une seule fois l’usage autonome du jour."
+        "Quelles différences entre iPhone et Mac ?",
+        "iPhone et iPad utilisent les écrans de restriction Temps d’écran d’Apple après autorisation du propriétaire. Mac couvre les fenêtres avec l’autorisation Accessibilité et doit rester ouvert. Quitter HelloBreak ou retirer cette autorisation termine les couvertures."
       ],
       [
-        "Faut-il un compte ou une synchronisation cloud ?",
-        "Aucun compte n’est nécessaire. Les règles et les tentatives restent sur votre appareil, sans SDK publicitaire ni analyse intégrée. La synchronisation entre appareils n’est pas proposée."
+        "Peut-on limiter un site sans limiter tout le navigateur ?",
+        "Oui. L’extension Safari incluse gère domaines et sous-domaines sur iPhone, iPad et Mac avec les permissions des sites. Les sites partagent un quota distinct des apps. Sur le même Mac, Safari et Chrome connecté partagent le quota du Mac ; sans connexion, Chrome utilise son quota local réglé dans sa fenêtre. Ce n’est pas une synchronisation entre appareils."
+      ],
+      [
+        "Que se passe-t-il à la limite d’une app ?",
+        "L’app est mise en pause. Une fois par jour, terminer 60 secondes de respiration guidée au premier plan offre 15 minutes d’accès temporaire. Le temps utilisé n’est pas remis à zéro ; les apps épuisées sont restreintes à l’expiration. Cela ne contourne pas la concentration active et ne vérifie aucune action hors écran."
+      ],
+      [
+        "Peut-on programmer la concentration ?",
+        "Oui. Choisissez apps et sites séparément des règles quotidiennes, ajoutez une intention facultative et démarrez 15–240 minutes maintenant ou sous sept jours. Terminer annule cet intervalle et rétablit les règles quotidiennes. Mac doit rester ouvert."
+      ],
+      [
+        "Le rapport additionne-t-il tous les appareils de l’Apple ID ?",
+        "Le rapport iOS affiche Cet appareil par défaut. Appareils partagés est facultatif et utilise les données partagées fournies par Apple. Le périmètre reste visible. Les quotas web sont des mesures locales séparées, pas des totaux de tous les appareils. HelloBreak ne synchronise pas les quotas par iCloud."
+      ],
+      [
+        "Faut-il un compte et où vont les données ?",
+        "Aucun compte n’est requis. Règles, sessions et pauses guidées restent sur votre appareil, sans publicité ni SDK d’analyse. Les données brutes Apple restent dans l’extension isolée. Vous pouvez arrêter la gestion, retirer les permissions ou désactiver l’extension."
       ]
-    ]
+    ],
+    "privacyLine": "Règles et relevés sur l’appareil. Sans compte, publicité ni SDK d’analyse.",
+    "featuresHeading": "Un budget quotidien et un plan pour se concentrer",
+    "features": [
+      [
+        "Des limites par app",
+        "Définissez un quota quotidien pour chaque app choisie. Une catégorie partage son quota ; enregistrer la sélection lance le suivi."
+      ],
+      [
+        "Un quota web distinct",
+        "Gérez Safari sur iPhone, iPad et Mac. Chrome connecté partage le quota du Mac ; Chrome autonome utilise le sien."
+      ],
+      [
+        "Se concentrer maintenant ou plus tard",
+        "Choisissez les distractions indépendamment des règles quotidiennes. Démarrez 15–240 minutes ou programmez sous sept jours."
+      ],
+      [
+        "Des rapports au périmètre clair",
+        "Consultez cet appareil ou les données partagées d’Apple. Les compteurs web sont affichés séparément et restent locaux."
+      ]
+    ],
+    "previewHeading": "Une pause avant de continuer",
+    "previewFlow": "60 s → 15 min",
+    "previewBody": "Après la limite quotidienne, terminez le guide respiratoire au premier plan pour un accès temporaire. Une fois par jour, sans contourner la concentration active.",
+    "advancedHeading": "Avancé : emplacement du connecteur Chrome",
+    "privacyScopeHeading": "Rapports Apple et compteurs locaux",
+    "privacyScopeBody": "Le rapport Apple affiche Cet appareil par défaut et propose Appareils partagés. Les données brutes restent dans l’extension de rapport isolée. Les quotas web sont mesurés sur cet appareil ou dans Chrome autonome ; ce ne sont ni des totaux Apple ID ni une synchronisation iCloud.",
+    "updatedLabel": "Mis à jour le 6 novembre 2026",
+    "localDataBody": "HelloBreak conserve sur cet appareil les jetons ou identifiants d’apps et catégories, domaines, limites et programmes de concentration, temps actif estimé, pauses guidées, accès temporaires, préférences et diagnostic. Les mises à jour n’effacent pas les relevés locaux existants. Aucun accès aux chats ni import de contacts."
   },
   "de": {
-    "homeTitle": "Bildschirmzeit und App-Limits für iPhone und Mac",
-    "homeDescription": "Lege mit HelloBreak ein eigenes Tageslimit pro App fest: Apple Bildschirmzeit auf dem iPhone, Fensterabdeckungen auf dem Mac und Chrome-Erweiterung für ausgewählte Websites.",
+    "homeTitle": "Bildschirmzeit, App-Limits und Fokuszeiten",
+    "homeDescription": "Verwalte App-Limits, Safari-Websites und Fokus auf iPhone, iPad und Mac. Mache vor dem Fortsetzen eine angeleitete Pause und verbinde Chrome mit dem Mac für ein gemeinsames Website-Budget.",
     "helpTitle": "Hilfe und Einrichtung",
-    "helpDescription": "Richte App-Limits auf iPhone und Mac sowie die Chrome-Verbindung ein. Erfahre mehr über Datenschutz, vorübergehenden Zugriff und Grenzen der Kontrolle.",
+    "helpDescription": "Richte Apps, Kategorien, Safari und Chrome ein, plane Fokus und unterscheide Berichte dieses Geräts, geteilte Geräte und lokale Website-Zähler.",
     "privacyTitle": "Datenschutzerklärung",
-    "privacyDescription": "Erfahre, wie HelloBreak Regeln und Einträge lokal speichert, den Chrome-Connector nutzt und die Website ohne integrierte Analyse betreibt.",
+    "privacyDescription": "So speichert HelloBreak Regeln und Verlauf lokal, isoliert Apple-Berichte und misst Website-Budgets auf dem jeweiligen Gerät.",
     "faqHeading": "Häufige Fragen",
     "faq": [
       [
-        "Was macht HelloBreak?",
-        "Lege mit HelloBreak ein eigenes Tageslimit pro App fest: Apple Bildschirmzeit auf dem iPhone, Fensterabdeckungen auf dem Mac und Chrome-Erweiterung für ausgewählte Websites. Ab dem Zeitlimit erhältst du nach 60 Sekunden geführtem Atmen 15 Minuten vorübergehenden Zugriff. Einmal täglich."
+        "Was ist HelloBreak?",
+        "Eine persönliche Bildschirmzeitverwaltung für iPhone, iPad und Mac: tägliche App-Limits, ein separates Website-Budget, sofortiger oder geplanter Fokus, Rückblicke und eine angeleitete Pause vor vorübergehendem Zugriff."
+      ],
+      [
+        "Können Apps verschiedene Tageslimits haben?",
+        "Ja. Jede einzeln ausgewählte App kann ein eigenes Tagesbudget erhalten. Eine ausgewählte Kategorie teilt ihr Kategorienbudget. Unter iOS startet das Speichern von Apps oder Kategorien automatisch die tägliche Überwachung."
       ],
       [
         "Wie unterscheiden sich iPhone und Mac?",
-        "Das iPhone verwendet die Systemsperrflächen von Apple Bildschirmzeit. Auf dem Mac werden normale App-Fenster abgedeckt; HelloBreak muss weiterlaufen. Diese Abdeckungen lassen sich umgehen."
+        "iPhone und iPad nutzen nach Zustimmung des Eigentümers Apples Bildschirmzeit-Sperransichten. Der Mac verdeckt Fenster mit Bedienungshilfen-Erlaubnis und muss geöffnet bleiben. Beenden von HelloBreak oder Entziehen der Erlaubnis beendet die Abdeckungen."
       ],
       [
-        "Kann ich einzelne Websites statt des ganzen Browsers begrenzen?",
-        "Nutze die enthaltene Safari-Erweiterung auf iPhone, iPad oder Mac; Chrome auf dem Mac nutzt seine Erweiterung und den lokalen Connector. Füge Domains in HelloBreak hinzu. Gewählte Websites teilen ein Limit, getrennt von Apps; auf dem Mac teilen Safari und Chrome dieses Limit. Erlaube den Website-Zugriff und begrenze nicht zusätzlich den gesamten Browser als App. Chrome funktioniert auch ohne Mac-App. Lege Websites und Tagesbudget im Popup fest. Beim Verbinden gelten die gemeinsamen Regeln und die heutige eigenständige Nutzung wird einmalig übernommen."
+        "Kann ich nur eine Website statt des ganzen Browsers begrenzen?",
+        "Ja. Die enthaltene Safari-Erweiterung verwaltet erlaubte Domains und Subdomains auf iPhone, iPad und Mac. Websites teilen ein Budget getrennt von App-Limits. Auf demselben Mac teilen Safari und verbundenes Chrome das Mac-Budget; ohne Verbindung nutzt Chrome sein im Popup eingestelltes lokales Budget. Das ist keine Gerätesynchronisierung."
       ],
       [
-        "Brauche ich ein Konto oder Cloud-Synchronisierung?",
-        "Ein Konto ist nicht nötig. Regeln und Einträge bleiben auf deinem Gerät. Es gibt kein Werbe-SDK und keine integrierte Analyse. Eine Synchronisierung zwischen Geräten wird nicht angeboten."
+        "Was passiert am App-Limit?",
+        "Die App wird pausiert. Einmal täglich ermöglichen 60 Sekunden Atemanleitung im Vordergrund 15 Minuten vorübergehenden Zugriff. Nutzungszeit wird nicht zurückgesetzt; erschöpfte Apps werden nach Ablauf erneut eingeschränkt. Aktiver Fokus wird nicht umgangen und Offline-Handlungen werden nicht geprüft."
+      ],
+      [
+        "Kann ich Fokuszeiten planen?",
+        "Ja. Wähle Apps und Websites getrennt von Tagesregeln, ergänze optional ein Vorhaben und starte 15–240 Minuten sofort oder innerhalb von sieben Tagen. Beenden hebt nur dieses Intervall auf; danach gelten Tagesregeln wieder. Auf dem Mac muss HelloBreak geöffnet bleiben."
+      ],
+      [
+        "Summiert der Bericht alle Geräte meiner Apple ID?",
+        "Der iOS-Bericht zeigt standardmäßig Dieses Gerät. Geteilte Geräte ist optional und nutzt von Apple bereitgestellte Daten. Der Umfang bleibt sichtbar. Website-Budgets sind separate lokale Messungen, keine Summen aller Geräte. HelloBreak synchronisiert Budgets nicht über iCloud."
+      ],
+      [
+        "Brauche ich ein Konto und wo bleiben die Daten?",
+        "Ein Konto ist nicht nötig. Regeln, Fokus und angeleitete Pausen bleiben auf deinem Gerät, ohne Werbung oder Analyse-SDK. Apple-Rohdaten bleiben in der isolierten Berichtserweiterung. Du kannst Verwaltung stoppen, Rechte entziehen oder die Browsererweiterung deaktivieren."
       ]
-    ]
+    ],
+    "privacyLine": "Regeln und Verlauf auf deinem Gerät. Ohne Konto, Werbung oder Analyse-SDK.",
+    "featuresHeading": "Ein Tagesbudget und ein Plan für konzentrierte Zeit",
+    "features": [
+      [
+        "Individuelle App-Limits",
+        "Lege für jede einzeln gewählte App ein Tagesbudget fest. Eine Kategorie teilt ihr Kategorienbudget; Speichern startet die Überwachung."
+      ],
+      [
+        "Ein separates Website-Budget",
+        "Verwalte Safari-Websites auf iPhone, iPad und Mac. Verbundenes Chrome teilt das Mac-Budget; eigenständiges Chrome nutzt sein eigenes."
+      ],
+      [
+        "Fokus sofort oder geplant",
+        "Wähle Ablenkungen unabhängig von Tagesregeln. Starte 15–240 Minuten sofort oder plane innerhalb von sieben Tagen."
+      ],
+      [
+        "Berichte mit klarem Umfang",
+        "Sieh dieses Gerät oder geteilte Apple-Daten. Website-Zähler werden getrennt angezeigt und bleiben lokal."
+      ]
+    ],
+    "previewHeading": "Vor dem Fortsetzen kurz pausieren",
+    "previewFlow": "60 Sek. → 15 Min.",
+    "previewBody": "Nach dem Tageslimit ermöglicht eine Atemanleitung im Vordergrund vorübergehenden App-Zugriff. Einmal täglich; aktiver Fokus wird nicht umgangen.",
+    "advancedHeading": "Erweitert: Speicherort des Chrome-Connectors",
+    "privacyScopeHeading": "Apple-Berichte und lokale Zähler",
+    "privacyScopeBody": "Der Apple-Bericht zeigt standardmäßig Dieses Gerät und bietet Geteilte Geräte. Rohdaten bleiben in der isolierten Berichtserweiterung. Website-Budgets werden auf diesem Gerät oder im eigenständigen Chrome gemessen; sie sind weder Apple-ID-Gesamtsummen noch iCloud-Synchronisierung.",
+    "updatedLabel": "Aktualisiert am 6. November 2026",
+    "localDataBody": "HelloBreak speichert App-/Kategorie-Tokens oder Kennungen, Domains, Limits und Fokuspläne, geschätzte aktive Zeit, angeleitete Pausen, vorübergehende Zugriffe, Einstellungen und Diagnosestatus lokal. Updates löschen vorhandene lokale Einträge nicht. Chats werden nicht gelesen und Kontakte nicht importiert."
   }
 }

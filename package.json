@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "sync:app": "node scripts/sync-app-metadata.mjs",
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs && node scripts/check-seo.mjs",
     "verify": "npm run build && npm run check",
