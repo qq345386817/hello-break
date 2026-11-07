@@ -67,8 +67,11 @@
     "advancedHeading": "Advanced: Chrome connector location",
     "privacyScopeHeading": "Screen Time reports and local counters",
     "privacyScopeBody": "Apple Screen Time reports default to this device, with an optional Shared devices scope. Raw report data stays inside Apple’s isolated report extension. HelloBreak’s website counters are local to the device or standalone Chrome extension; they are not an Apple ID-wide total or iCloud quota sync.",
-    "updatedLabel": "Updated November 6, 2026",
-    "localDataBody": "HelloBreak stores selected app/category tokens or app identifiers, website domains, limits and focus schedules, estimated active use, guided-break and temporary-access records, preferences and diagnostic state on this device. Updates do not erase existing local records. It does not read chats or import contacts."
+    "updatedLabel": "Updated November 7, 2026",
+    "localDataBody": "HelloBreak stores selected app/category tokens or app identifiers, website domains, limits and focus schedules, estimated active use, guided-break and temporary-access records, preferences and diagnostic state on this device. Updates do not erase existing local records. It does not read chats or import contacts.",
+    "privacyChromeHeading": "Chrome extension and Limited Use",
+    "privacyChromeBody": "The Chrome extension uses active-tab URLs to match your selected sites, plus foreground/idle state and daily counters to apply website allowances. Settings, selected domains and counters stay in local extension storage; optional sharing sends them only to the compatible app on the same Mac. The original destination URL remains in the pause tab fragment so the page can reopen. We do not receive this browsing data on our servers, read page text, messages, passwords or forms, or sell it. Removing the extension clears its local storage; the separate Mac app retains its own local records.",
+    "privacyChromeLimitedUse": "HelloBreak’s use of information received from Google APIs adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. Data is used only for the website-limit features described here, never for advertising, credit decisions or unrelated purposes."
   },
   "zh-Hans": {
     "homeTitle": "屏幕时间管理、应用限额与专注计时",
@@ -138,8 +141,11 @@
     "advancedHeading": "高级设置：Chrome 连接器位置",
     "privacyScopeHeading": "屏幕时间报告与本机计数",
     "privacyScopeBody": "Apple 屏幕时间报告默认查看此设备，可选择共享设备。原始报告数据保留在 Apple 的隔离报告扩展中。HelloBreak 网站计数保存在当前设备或独立 Chrome 扩展内，不是 Apple ID 下所有设备的总量，也不是 iCloud 额度同步。",
-    "updatedLabel": "更新于 2026 年 11 月 6 日",
-    "localDataBody": "HelloBreak 在本机保存所选应用／类别令牌或应用标识、网站域名、额度与专注计划、估计活跃用时、引导休息与临时使用记录、偏好和诊断状态。更新不会清除已有本地记录。App 不读取聊天，也不导入通讯录。"
+    "updatedLabel": "更新于 2026 年 11 月 7 日",
+    "localDataBody": "HelloBreak 在本机保存所选应用／类别令牌或应用标识、网站域名、额度与专注计划、估计活跃用时、引导休息与临时使用记录、偏好和诊断状态。更新不会清除已有本地记录。App 不读取聊天，也不导入通讯录。",
+    "privacyChromeHeading": "Chrome 扩展与受限使用",
+    "privacyChromeBody": "Chrome 扩展使用活跃标签页网址匹配所选网站，并根据前台／闲置状态和每日计数应用网站额度。设置、所选域名和计数保存在扩展的本地存储中；可选共用模式仅向同一台 Mac 上的兼容 App 传递这些信息。原始网址保留在暂停标签页的 fragment 中，以便恢复访问。我们不会在服务器接收这些浏览数据，不读取网页正文、消息、密码或表单，也不出售这些数据。移除扩展会清除其本地存储，独立的 Mac App 保留自己的本机记录。",
+    "privacyChromeLimitedUse": "HelloBreak 对从 Google API 获取的信息的使用遵守 Chrome Web Store 用户数据政策，包括 Limited Use（受限使用）要求。这些数据仅用于此处说明的网站限额功能，不用于广告、信用决策或无关目的。"
   },
   "zh-Hant": {
     "homeTitle": "螢幕時間管理、App 限額與專注計時",
@@ -209,8 +215,11 @@
     "advancedHeading": "進階設定：Chrome 連接器位置",
     "privacyScopeHeading": "螢幕時間報告與本機計數",
     "privacyScopeBody": "Apple 螢幕時間報告預設查看此裝置，可選擇共享裝置。原始報告資料保留在 Apple 的隔離報告延伸功能內。HelloBreak 網站計數儲存在目前裝置或獨立 Chrome 擴充功能中，並非 Apple ID 下所有裝置的總量，也不是 iCloud 額度同步。",
-    "updatedLabel": "更新於 2026 年 11 月 6 日",
-    "localDataBody": "HelloBreak 在本機儲存所選 App／類別權杖或 App 識別碼、網站網域、額度與專注計畫、估計活躍用時、引導休息與暫時使用紀錄、偏好與診斷狀態。更新不會清除既有本機紀錄。App 不讀取聊天，也不匯入通訊錄。"
+    "updatedLabel": "更新於 2026 年 11 月 7 日",
+    "localDataBody": "HelloBreak 在本機儲存所選 App／類別權杖或 App 識別碼、網站網域、額度與專注計畫、估計活躍用時、引導休息與暫時使用紀錄、偏好與診斷狀態。更新不會清除既有本機紀錄。App 不讀取聊天，也不匯入通訊錄。",
+    "privacyChromeHeading": "Chrome 擴充功能與受限使用",
+    "privacyChromeBody": "Chrome 擴充功能使用作用中分頁網址比對所選網站，並根據前景／閒置狀態及每日計數套用網站額度。設定、所選網域與計數保存在擴充功能的本機儲存空間；可選共用模式僅向同一台 Mac 上的相容 App 傳遞這些資訊。原始網址保留在暫停分頁的 fragment 中，以便恢復存取。我們不會在伺服器接收這些瀏覽資料，不讀取網頁內文、訊息、密碼或表單，也不出售資料。移除擴充功能會清除其本機儲存，獨立的 Mac App 保留自己的本機紀錄。",
+    "privacyChromeLimitedUse": "HelloBreak 對從 Google API 取得之資訊的使用遵守 Chrome Web Store 使用者資料政策，包括 Limited Use（受限使用）要求。資料僅用於此處說明的網站限額功能，不用於廣告、信用決策或無關目的。"
   },
   "es": {
     "homeTitle": "Límites de apps, tiempo de uso y concentración",
@@ -280,8 +289,11 @@
     "advancedHeading": "Avanzado: ubicación del conector de Chrome",
     "privacyScopeHeading": "Informes de Apple y contadores locales",
     "privacyScopeBody": "El informe de Apple muestra Este dispositivo por defecto y permite elegir Dispositivos compartidos. Sus datos permanecen en la extensión aislada de informes. Las cuotas web se miden en este dispositivo o en Chrome independiente; no son el total del Apple ID ni una sincronización por iCloud.",
-    "updatedLabel": "Actualizado el 6 de noviembre de 2026",
-    "localDataBody": "HelloBreak guarda en este dispositivo tokens o identificadores de apps y categorías, dominios, límites y planes de concentración, uso activo estimado, pausas guiadas, accesos temporales, preferencias y diagnóstico. Las actualizaciones no borran registros locales existentes. No lee chats ni importa contactos."
+    "updatedLabel": "Actualizado el 7 de noviembre de 2026",
+    "localDataBody": "HelloBreak guarda en este dispositivo tokens o identificadores de apps y categorías, dominios, límites y planes de concentración, uso activo estimado, pausas guiadas, accesos temporales, preferencias y diagnóstico. Las actualizaciones no borran registros locales existentes. No lee chats ni importa contactos.",
+    "privacyChromeHeading": "Extensión de Chrome y uso limitado",
+    "privacyChromeBody": "La extensión usa las URL de las pestañas activas para identificar los sitios elegidos, además del estado activo/inactivo y los contadores diarios para aplicar cuotas. Los ajustes, dominios y contadores se guardan localmente; el uso compartido opcional solo los envía a la app compatible del mismo Mac. La URL original permanece en el fragmento de la pestaña de pausa para volver a abrirla. No recibimos estos datos en servidores, no leemos texto, mensajes, contraseñas ni formularios, ni vendemos los datos. Eliminar la extensión borra su almacenamiento local; la app Mac conserva sus propios registros.",
+    "privacyChromeLimitedUse": "El uso que HelloBreak hace de la información recibida de las API de Google cumple la Política de Datos de Usuario de Chrome Web Store, incluidos los requisitos de Limited Use. Solo se usa para las funciones de límites descritas, nunca para publicidad, decisiones crediticias ni fines ajenos."
   },
   "ja": {
     "homeTitle": "アプリの利用制限・スクリーンタイム・集中タイマー",
@@ -351,8 +363,11 @@
     "advancedHeading": "詳細：Chromeコネクタの保存場所",
     "privacyScopeHeading": "Appleレポートと端末内のカウンタ",
     "privacyScopeBody": "Appleレポートは標準でこのデバイスを表示し、共有デバイスも選択できます。元データは隔離されたレポート拡張内に留まります。Web枠は端末内または単独Chrome内の計測で、Apple ID全体の合計やiCloudによる枠の同期ではありません。",
-    "updatedLabel": "更新日：2026年11月6日",
-    "localDataBody": "選択したアプリ・カテゴリのトークンや識別子、ドメイン、上限と集中予定、推定利用時間、呼吸ガイドと一時利用の記録、設定、診断状態を端末内に保存します。更新しても既存の端末内記録は消去しません。チャットや連絡先は読み取りません。"
+    "updatedLabel": "2026年11月7日更新",
+    "localDataBody": "選択したアプリ・カテゴリのトークンや識別子、ドメイン、上限と集中予定、推定利用時間、呼吸ガイドと一時利用の記録、設定、診断状態を端末内に保存します。更新しても既存の端末内記録は消去しません。チャットや連絡先は読み取りません。",
+    "privacyChromeHeading": "Chrome 拡張機能と限定的な使用",
+    "privacyChromeBody": "Chrome 拡張機能はアクティブなタブの URL で選択したサイトを照合し、前面／アイドル状態と日ごとのカウンターで時間枠を適用します。設定、選択したドメイン、カウンターはローカルストレージに保存し、任意の共有では同じ Mac の対応アプリにだけ渡します。元の URL は再表示のため休憩タブのフラグメントに保持します。当社サーバーで閲覧データを受信せず、本文、メッセージ、パスワード、フォームを読んだりデータを販売したりしません。拡張機能を削除するとローカルストレージが消去されます。別の Mac アプリの記録はそのアプリ内に残ります。",
+    "privacyChromeLimitedUse": "HelloBreak による Google API から取得した情報の使用は、Limited Use 要件を含む Chrome ウェブストアのユーザーデータポリシーに従います。ここで説明するサイト制限機能だけに使用し、広告、信用判断、無関係な目的には使用しません。"
   },
   "ko": {
     "homeTitle": "스크린 타임, 앱 사용 제한과 집중 타이머",
@@ -422,8 +437,11 @@
     "advancedHeading": "고급: Chrome 연결 도우미 위치",
     "privacyScopeHeading": "Apple 리포트와 로컬 카운터",
     "privacyScopeBody": "Apple 리포트는 기본적으로 이 기기를 표시하며 공유 기기도 선택할 수 있습니다. 원본 데이터는 격리된 리포트 확장에 남습니다. 웹 한도는 기기 또는 독립 Chrome의 로컬 측정이며 Apple ID 전체 합계나 iCloud 한도 동기화가 아닙니다.",
-    "updatedLabel": "2026년 11월 6일 업데이트",
-    "localDataBody": "선택한 앱·카테고리 토큰이나 식별자, 도메인, 한도와 집중 계획, 추정 활성 시간, 호흡 안내와 임시 사용 기록, 설정 및 진단 상태를 기기에 저장합니다. 업데이트는 기존 로컬 기록을 지우지 않습니다. 채팅을 읽거나 연락처를 가져오지 않습니다."
+    "updatedLabel": "2026년 11월 7일 업데이트",
+    "localDataBody": "선택한 앱·카테고리 토큰이나 식별자, 도메인, 한도와 집중 계획, 추정 활성 시간, 호흡 안내와 임시 사용 기록, 설정 및 진단 상태를 기기에 저장합니다. 업데이트는 기존 로컬 기록을 지우지 않습니다. 채팅을 읽거나 연락처를 가져오지 않습니다.",
+    "privacyChromeHeading": "Chrome 확장 프로그램과 제한적 사용",
+    "privacyChromeBody": "Chrome 확장 프로그램은 활성 탭 URL로 선택한 사이트를 확인하고, 전면/유휴 상태와 일일 카운터로 웹사이트 한도를 적용합니다. 설정, 선택한 도메인, 카운터는 로컬 저장소에 보관하며 선택적 공유 시 같은 Mac의 호환 앱에만 전달합니다. 원래 URL은 페이지 복원을 위해 휴식 탭의 프래그먼트에 남습니다. 당사 서버로 이 검색 활동 데이터를 받지 않고, 본문·메시지·비밀번호·양식을 읽거나 데이터를 판매하지 않습니다. 확장 프로그램을 삭제하면 해당 로컬 저장소가 지워지지만 별도 Mac 앱의 기록은 앱에 남습니다.",
+    "privacyChromeLimitedUse": "HelloBreak는 Google API에서 받은 정보를 Limited Use 요건을 포함한 Chrome 웹 스토어 사용자 데이터 정책에 따라 사용합니다. 여기에서 설명하는 웹사이트 한도 기능에만 사용하며 광고, 신용 결정 또는 관련 없는 목적에 사용하지 않습니다."
   },
   "fr": {
     "homeTitle": "Temps d’écran, limites d’apps et concentration",
@@ -493,8 +511,11 @@
     "advancedHeading": "Avancé : emplacement du connecteur Chrome",
     "privacyScopeHeading": "Rapports Apple et compteurs locaux",
     "privacyScopeBody": "Le rapport Apple affiche Cet appareil par défaut et propose Appareils partagés. Les données brutes restent dans l’extension de rapport isolée. Les quotas web sont mesurés sur cet appareil ou dans Chrome autonome ; ce ne sont ni des totaux Apple ID ni une synchronisation iCloud.",
-    "updatedLabel": "Mis à jour le 6 novembre 2026",
-    "localDataBody": "HelloBreak conserve sur cet appareil les jetons ou identifiants d’apps et catégories, domaines, limites et programmes de concentration, temps actif estimé, pauses guidées, accès temporaires, préférences et diagnostic. Les mises à jour n’effacent pas les relevés locaux existants. Aucun accès aux chats ni import de contacts."
+    "updatedLabel": "Mis à jour le 7 novembre 2026",
+    "localDataBody": "HelloBreak conserve sur cet appareil les jetons ou identifiants d’apps et catégories, domaines, limites et programmes de concentration, temps actif estimé, pauses guidées, accès temporaires, préférences et diagnostic. Les mises à jour n’effacent pas les relevés locaux existants. Aucun accès aux chats ni import de contacts.",
+    "privacyChromeHeading": "Extension Chrome et utilisation limitée",
+    "privacyChromeBody": "L’extension utilise les URL des onglets actifs pour reconnaître les sites choisis, ainsi que l’état actif/inactif et les compteurs quotidiens pour appliquer les quotas. Réglages, domaines et compteurs restent dans le stockage local ; le partage facultatif les transmet uniquement à l’app compatible du même Mac. L’URL d’origine reste dans le fragment de l’onglet de pause pour rouvrir la page. Nous ne recevons pas ces données sur nos serveurs, ne lisons ni textes, messages, mots de passe ou formulaires, et ne vendons pas les données. Supprimer l’extension efface son stockage local ; l’app Mac conserve ses propres données.",
+    "privacyChromeLimitedUse": "L’utilisation par HelloBreak des informations reçues des API Google respecte les règles relatives aux données utilisateur du Chrome Web Store, y compris les exigences Limited Use. Ces données servent uniquement aux limites de sites décrites, jamais à la publicité, aux décisions de crédit ou à des fins sans rapport."
   },
   "de": {
     "homeTitle": "Bildschirmzeit, App-Limits und Fokuszeiten",
@@ -564,7 +585,10 @@
     "advancedHeading": "Erweitert: Speicherort des Chrome-Connectors",
     "privacyScopeHeading": "Apple-Berichte und lokale Zähler",
     "privacyScopeBody": "Der Apple-Bericht zeigt standardmäßig Dieses Gerät und bietet Geteilte Geräte. Rohdaten bleiben in der isolierten Berichtserweiterung. Website-Budgets werden auf diesem Gerät oder im eigenständigen Chrome gemessen; sie sind weder Apple-ID-Gesamtsummen noch iCloud-Synchronisierung.",
-    "updatedLabel": "Aktualisiert am 6. November 2026",
-    "localDataBody": "HelloBreak speichert App-/Kategorie-Tokens oder Kennungen, Domains, Limits und Fokuspläne, geschätzte aktive Zeit, angeleitete Pausen, vorübergehende Zugriffe, Einstellungen und Diagnosestatus lokal. Updates löschen vorhandene lokale Einträge nicht. Chats werden nicht gelesen und Kontakte nicht importiert."
+    "updatedLabel": "Aktualisiert am 7. November 2026",
+    "localDataBody": "HelloBreak speichert App-/Kategorie-Tokens oder Kennungen, Domains, Limits und Fokuspläne, geschätzte aktive Zeit, angeleitete Pausen, vorübergehende Zugriffe, Einstellungen und Diagnosestatus lokal. Updates löschen vorhandene lokale Einträge nicht. Chats werden nicht gelesen und Kontakte nicht importiert.",
+    "privacyChromeHeading": "Chrome-Erweiterung und eingeschränkte Nutzung",
+    "privacyChromeBody": "Die Erweiterung gleicht aktive Tab-URLs mit ausgewählten Websites ab und nutzt Vordergrund-/Leerlaufstatus sowie Tageszähler für Website-Budgets. Einstellungen, Domains und Zähler bleiben lokal; optionales Teilen sendet sie nur an die kompatible App auf demselben Mac. Die ursprüngliche URL bleibt zum Wiederöffnen im Fragment des Pausentabs. Diese Browserdaten gehen nicht an unsere Server. Wir lesen keine Seitentexte, Nachrichten, Passwörter oder Formulare und verkaufen keine Daten. Das Entfernen der Erweiterung löscht ihren lokalen Speicher; die separate Mac-App behält ihre eigenen Daten.",
+    "privacyChromeLimitedUse": "HelloBreak verwendet Informationen aus Google-APIs gemäß der Nutzerdatenrichtlinie des Chrome Web Store einschließlich der Limited-Use-Anforderungen. Daten dienen nur den hier beschriebenen Website-Limits, niemals Werbung, Kreditentscheidungen oder sachfremden Zwecken."
   }
 }

@@ -49,7 +49,10 @@ for(const locale of config.locales){
    assert(!html.includes('class="choice'));
   }
   if(page==='help')for(const id of product.faqIds)assert(html.includes(`id="${id}"`));
-  if(page==='privacy')assert(html.includes(escape(copy.privacyScopeBody)));
+  if(page==='privacy'){
+   for(const key of ['privacyScopeBody','privacyChromeBody','privacyChromeLimitedUse'])assert(html.includes(escape(copy[key])));
+   assert(html.includes('id="chrome-extension"'));
+  }
   for(const m of html.matchAll(/(?:href|src)="(\/[^"#]*)/g)){
    assert(fs.existsSync(path.join(out,m[1].split(/[?#]/)[0])),`Broken asset/link ${m[1]}`);
   }
@@ -59,7 +62,7 @@ const sitemap=fs.readFileSync(path.join(out,'sitemap.xml'),'utf8');
 const locations=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);
 assert.equal(locations.length,24); assert.equal(new Set(locations).size,24);
 const modified=[...sitemap.matchAll(/<lastmod>(.*?)<\/lastmod>/g)].map(x=>x[1]);
-assert.equal(modified.length,24);assert(modified.every(date=>date===product.updatedOn));
+assert.equal(modified.length,24);assert(modified.every((date,i)=>date===(locations[i].endsWith('/privacy/')?(product.privacyUpdatedOn??product.updatedOn):product.updatedOn)));
 for(const url of locations){assert(url.startsWith(site.origin+'/')); assert(fs.existsSync(path.join(out,new URL(url).pathname,'index.html')));}
 const llms=fs.readFileSync(path.join(out,'llms.txt'),'utf8');
 for(const m of llms.matchAll(/\]\((https:[^)]+)\)/g)){assert(m[1].startsWith(site.origin));assert(fs.existsSync(path.join(out,new URL(m[1]).pathname)));}
