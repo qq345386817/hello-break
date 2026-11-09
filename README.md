@@ -37,3 +37,15 @@ Commit the eight locale snapshots together when syncing shared App strings. Keep
 `npm run verify` checks localization completeness, unique metadata, canonical routes, visible structured answers, local assets, the verification token and sitemap/llms links. Asset query fingerprints refresh cached CSS and favicons when their content changes.
 
 `deployment.json` records the deployed source commit using `CF_PAGES_COMMIT_SHA` (or the local Git HEAD). After pushing, compare that public receipt with website HEAD before verifying production bytes. Review the release-preparation text when the App becomes publicly available. Keep lastmod tied to meaningful content changes rather than updating it on every build.
+
+## Bing Webmaster Tools
+
+The production property `https://hello-break.luopeike.com/` was added and verified on November 9, 2026 using a dedicated Cloudflare DNS record. Retain this verification record:
+
+| Type | Full name | Target | Proxy |
+| --- | --- | --- | --- |
+| CNAME | `eb6dea99ba046ec8fdc81d4bf12c7a1f.hello-break.luopeike.com` | `verify.bing.com` | DNS only |
+
+Both Cloudflare and Google public DNS resolvers returned this exact CNAME. The existing proxied website record `hello-break.luopeike.com → hello-break.pages.dev` was preserved, as was Google Search Console verification. This DNS verification method does not require a Bing HTML marker or XML file.
+
+`https://hello-break.luopeike.com/sitemap.xml` was submitted to [Bing's Sitemaps dashboard](https://www.bing.com/webmasters/sitemaps?siteUrl=https://hello-break.luopeike.com/). The submission readback was **1 known sitemap / Processing / 0 errors / 0 warnings / 0 URLs discovered**. The sitemap contains 24 canonical URLs across eight languages; that source count does not establish crawling or indexing. This is a dated submission record, not a live status feed.
