@@ -5,49 +5,100 @@
       "id": "en-US",
       "apple": "en-US",
       "chrome": "en_US",
-      "name": "English (US)"
+      "name": "English (US)",
+      "asc": "en-US",
+      "openGraph": "en_US",
+      "direction": "ltr"
     },
     {
       "id": "zh-Hans",
       "apple": "zh-Hans",
       "chrome": "zh_CN",
-      "name": "简体中文"
+      "name": "简体中文",
+      "asc": "zh-Hans",
+      "openGraph": "zh_CN",
+      "direction": "ltr"
     },
     {
       "id": "zh-Hant",
       "apple": "zh-Hant",
       "chrome": "zh_TW",
-      "name": "繁體中文"
+      "name": "繁體中文",
+      "asc": "zh-Hant",
+      "openGraph": "zh_TW",
+      "direction": "ltr"
     },
     {
       "id": "es",
       "apple": "es",
       "chrome": "es",
-      "name": "Español"
+      "name": "Español",
+      "asc": "es-ES",
+      "openGraph": "es_ES",
+      "direction": "ltr"
     },
     {
       "id": "ja",
       "apple": "ja",
       "chrome": "ja",
-      "name": "日本語"
+      "name": "日本語",
+      "asc": "ja",
+      "openGraph": "ja_JP",
+      "direction": "ltr"
     },
     {
       "id": "ko",
       "apple": "ko",
       "chrome": "ko",
-      "name": "한국어"
+      "name": "한국어",
+      "asc": "ko",
+      "openGraph": "ko_KR",
+      "direction": "ltr"
     },
     {
       "id": "fr",
       "apple": "fr",
       "chrome": "fr",
-      "name": "Français"
+      "name": "Français",
+      "asc": "fr-FR",
+      "openGraph": "fr_FR",
+      "direction": "ltr"
     },
     {
       "id": "de",
       "apple": "de",
       "chrome": "de",
-      "name": "Deutsch"
+      "name": "Deutsch",
+      "asc": "de-DE",
+      "openGraph": "de_DE",
+      "direction": "ltr"
+    },
+    {
+      "id": "hi",
+      "apple": "hi",
+      "chrome": "hi",
+      "name": "हिन्दी",
+      "direction": "ltr",
+      "asc": "hi",
+      "openGraph": "hi_IN"
+    },
+    {
+      "id": "ru",
+      "apple": "ru",
+      "chrome": "ru",
+      "name": "Русский",
+      "direction": "ltr",
+      "asc": "ru",
+      "openGraph": "ru_RU"
+    },
+    {
+      "id": "ar",
+      "apple": "ar",
+      "chrome": "ar",
+      "name": "العربية",
+      "direction": "rtl",
+      "asc": "ar-SA",
+      "openGraph": "ar_SA"
     }
   ]
 }

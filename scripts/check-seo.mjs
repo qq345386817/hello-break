@@ -60,13 +60,13 @@ for(const locale of config.locales){
 }
 const sitemap=fs.readFileSync(path.join(out,'sitemap.xml'),'utf8');
 const locations=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);
-assert.equal(locations.length,24); assert.equal(new Set(locations).size,24);
+assert.equal(locations.length,config.locales.length * 3); assert.equal(new Set(locations).size,config.locales.length * 3);
 const modified=[...sitemap.matchAll(/<lastmod>(.*?)<\/lastmod>/g)].map(x=>x[1]);
-assert.equal(modified.length,24);assert(modified.every((date,i)=>date===(locations[i].endsWith('/privacy/')?(product.privacyUpdatedOn??product.updatedOn):product.updatedOn)));
+assert.equal(modified.length,config.locales.length * 3);assert(modified.every((date,i)=>date===(product.localizedOn?.[new URL(locations[i]).pathname.split('/')[1]] ?? (locations[i].endsWith('/privacy/')?(product.privacyUpdatedOn??product.updatedOn):product.updatedOn))));
 for(const url of locations){assert(url.startsWith(site.origin+'/')); assert(fs.existsSync(path.join(out,new URL(url).pathname,'index.html')));}
 const llms=fs.readFileSync(path.join(out,'llms.txt'),'utf8');
 for(const m of llms.matchAll(/\]\((https:[^)]+)\)/g)){assert(m[1].startsWith(site.origin));assert(fs.existsSync(path.join(out,new URL(m[1]).pathname)));}
 for(const [question,answer] of editorial['en-US'].faq){assert(llms.includes(question));assert(llms.includes(answer));}
 assert(!llms.includes('still require physical-device acceptance'));
 assert.equal(JSON.parse(fs.readFileSync(path.join(out,'deployment.json'))).project,'hello-break');
-console.log('PASS: unique metadata, canonical URLs, visible FAQ structured data, no executable scripts, assets, GSC verification, 24 sitemap URLs and llms links.');
+console.log('PASS: unique metadata, canonical URLs, visible FAQ structured data, no executable scripts, assets, GSC verification, localized sitemap URLs and llms links.');

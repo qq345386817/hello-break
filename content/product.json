@@ -3,11 +3,32 @@
   "privacyUpdatedOn": "2026-11-07",
   "appId": "6828316110",
   "publicRelease": false,
-  "operatingSystems": ["iOS 16.0 or later", "iPadOS 16.0 or later", "macOS 13.0 or later"],
-  "focusMinutes": {"minimum": 15, "maximum": 240},
+  "operatingSystems": [
+    "iOS 16.0 or later",
+    "iPadOS 16.0 or later",
+    "macOS 13.0 or later"
+  ],
+  "focusMinutes": {
+    "minimum": 15,
+    "maximum": 240
+  },
   "scheduleDays": 7,
   "guidedBreakSeconds": 60,
   "temporaryAccessMinutes": 15,
   "temporaryAccessPerDay": 1,
-  "faqIds": ["overview", "app-limits", "platform-differences", "websites", "guided-break", "focus-schedule", "reports", "data-privacy"]
+  "faqIds": [
+    "overview",
+    "app-limits",
+    "platform-differences",
+    "websites",
+    "guided-break",
+    "focus-schedule",
+    "reports",
+    "data-privacy"
+  ],
+  "localizedOn": {
+    "hi": "2026-11-15",
+    "ru": "2026-11-15",
+    "ar": "2026-11-15"
+  }
 }
