@@ -357,6 +357,7 @@
   "visit.takeBreak": "60秒のガイドを始める",
   "visit.reconsider": "今も、続ける必要がありますか？",
   "visit.done": "今はここまで",
+  "visit.backToToday": "「今日」に戻る",
   "visit.extra": "あと15分だけ利用する",
   "visit.onceDaily": "このデバイスの管理対象全体で、延長は1日1回です。",
   "visit.scopeChoose": "再開する対象を選択",

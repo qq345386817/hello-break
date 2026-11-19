@@ -357,6 +357,7 @@
   "visit.takeBreak": "开始 60 秒引导",
   "visit.reconsider": "现在，还需要继续吗？",
   "visit.done": "就到这里",
+  "visit.backToToday": "返回今天",
   "visit.extra": "临时使用 15 分钟",
   "visit.onceDaily": "本设备的受管理项目共用每天一次临时使用机会。",
   "visit.scopeChoose": "选择本次放行范围",
