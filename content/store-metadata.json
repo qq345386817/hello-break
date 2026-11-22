@@ -3,228 +3,228 @@
   "sourceHashes": {
     "fastlane/metadata_ios/en-US/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/en-US/subtitle.txt": "1f50aaffae7372ce30467f57145e622cbb55f34a2b1d650f521d072c78bb19d7",
-    "fastlane/metadata_ios/en-US/description.txt": "8ad9006418477949ebe9339a8b3b8edf9b47340a66980c9dddb48a4c10bd6cf8",
-    "fastlane/metadata_ios/en-US/promotional_text.txt": "b2018db2509bcc1d2f34e65e4fa6522bf4abb2ee89de0f7ac5fd692a7427352c",
+    "fastlane/metadata_ios/en-US/description.txt": "79dfd00cf98648e13e482593667096a7eeb14519973d00f2f391f47aa84128f9",
+    "fastlane/metadata_ios/en-US/promotional_text.txt": "0f1bc58d807dcd379c1a8a0b0481a4f540fa80420043b04a355da7d0985a72ff",
     "fastlane/metadata_ios/zh-Hans/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/zh-Hans/subtitle.txt": "8b6e5ac6304b357f52ad041a64a307cdbfe04e41cf6e9ceb39fa1e7043beb0ff",
-    "fastlane/metadata_ios/zh-Hans/description.txt": "08478f4e5c6360708dfb5875547d9c1592231f6787981d6318fa78e99dade31e",
-    "fastlane/metadata_ios/zh-Hans/promotional_text.txt": "d739dfc4a4a82fd8f8e0f45a6dc6babd35dfdddc82792b3507e3064e3a93e5cc",
+    "fastlane/metadata_ios/zh-Hans/description.txt": "c6bdb4ad59b5b1992fa9f871f9456935c28d72edd9c4efc185289f3df8551852",
+    "fastlane/metadata_ios/zh-Hans/promotional_text.txt": "5de4372a3af46c590618470f459821571e6d6217ed4510e5abef33fe8cc2e57c",
     "fastlane/metadata_ios/zh-Hant/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/zh-Hant/subtitle.txt": "d503be0c6490f0ae96f348b381b3b45b0ce169d812167a1dc22d347fb14a7f42",
-    "fastlane/metadata_ios/zh-Hant/description.txt": "c31fac8504f635eb5fa34002605dfd2b793a1eae4abf912547c75194470134d2",
-    "fastlane/metadata_ios/zh-Hant/promotional_text.txt": "d380f5a5a6ec3ead4881ccfe11578eb67b4932b12897e3ff41194a5a5445f523",
+    "fastlane/metadata_ios/zh-Hant/description.txt": "46e48914a3a9716f5d1f39b93659707285de833fad77acbc9ca612fb9fd2ad4e",
+    "fastlane/metadata_ios/zh-Hant/promotional_text.txt": "bd8edbeab55f9cec8c42e530dc759ebf128f4e7bcdaa25cafb5b55eeb6e73d29",
     "fastlane/metadata_ios/es-ES/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/es-ES/subtitle.txt": "b16d79edbaf5da330a2da3b41b5621000a5340e07096360ec0ab162be1bf16fc",
-    "fastlane/metadata_ios/es-ES/description.txt": "1921488238cf1046783ca7838615920a1211f35ef0b54ab24924b183d35ab270",
-    "fastlane/metadata_ios/es-ES/promotional_text.txt": "b0b15a07edd4f799373e69135ef033443cf278593714920984e6c0df27679be9",
+    "fastlane/metadata_ios/es-ES/description.txt": "fed86dab0533514d85076337346dc960e740dcb36b26a8d3d205f6dfa08dad1b",
+    "fastlane/metadata_ios/es-ES/promotional_text.txt": "35ea6342785edc03166e9f6892715d83e0cc862a5d4faf34f1169129121a83b2",
     "fastlane/metadata_ios/ja/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/ja/subtitle.txt": "25e876415a2f90c314bef6fd55a0ef29edf7a610bf28066af2ec72c7a5cdb2ac",
-    "fastlane/metadata_ios/ja/description.txt": "1f4ab0caf148393c791a0d33a3c615d523394eac42d3e8d87c40664b597ae7a1",
-    "fastlane/metadata_ios/ja/promotional_text.txt": "89114e780fad79d17b5f7434b4a9e5dcab2cea30dd805b3e7b18f484cfc49a10",
+    "fastlane/metadata_ios/ja/description.txt": "a4c3c7eed7f09d4b670f038865b9cbde5011bb5762483cdf61601d9f88c884c7",
+    "fastlane/metadata_ios/ja/promotional_text.txt": "f7a7e58826d8bec7a02d09b53c36ff0243da7a36b518812b1baf23209aac1d0b",
     "fastlane/metadata_ios/ko/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/ko/subtitle.txt": "d6f17b89db378968beeb3226e85971ed9caeca38c90fa627d537e1dedc4ca5ad",
-    "fastlane/metadata_ios/ko/description.txt": "35ee4c2cac7fa6a0a2473c5a39a759aaade8e04bfe0c0439f34bcced6729db9c",
-    "fastlane/metadata_ios/ko/promotional_text.txt": "d2d4cb3709fbb12ce6b508c3656a2f1e9a97726f462957bdd7c31189b1c5796e",
+    "fastlane/metadata_ios/ko/description.txt": "db977844021928b1946e4e642c3be242d293601d73ff4e0fb47abc2a2e5fe7fb",
+    "fastlane/metadata_ios/ko/promotional_text.txt": "964b1b15ec2a266de5fa025fdda5a908dc8300101017e63486c38ffb59ca7447",
     "fastlane/metadata_ios/fr-FR/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/fr-FR/subtitle.txt": "141781f3f2790a5579794311d60927625a650d7626db2cb24841f8d0d676498c",
-    "fastlane/metadata_ios/fr-FR/description.txt": "d4791bcf113b058ed6959afc8914c1e0deeeb8a24c348bed6b006380dc2ff94c",
-    "fastlane/metadata_ios/fr-FR/promotional_text.txt": "02c2a8d5c1257479f2e51386015d3d81ebd6469855c578040dc149faaf74c8f2",
+    "fastlane/metadata_ios/fr-FR/description.txt": "8c3aba18b19cfc6def0c90b81777551ade2437e2dc57415f2936dbdea3e333d5",
+    "fastlane/metadata_ios/fr-FR/promotional_text.txt": "590b0a99136405c37d224d9a7511494db75d19bb047d805a66a981c34b181c82",
     "fastlane/metadata_ios/de-DE/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/de-DE/subtitle.txt": "cc7c25fad8ec6f92d2e8533a4ae10a6dd3b545f5a0d25c00c7c52f85f461d624",
-    "fastlane/metadata_ios/de-DE/description.txt": "79eada51bf19a51bdb7c6e71f0ff284591b90bb3b62f13a3c5bee76dc438d903",
-    "fastlane/metadata_ios/de-DE/promotional_text.txt": "29ed217328f932ba80bd140b6ecb37515f8e21c2dbcca03d88f4e2b09d63ae5e",
+    "fastlane/metadata_ios/de-DE/description.txt": "b8833dd23ce71c1219476e8619eaf2ca0c603cd2cf42ceec073e1c56777c26b2",
+    "fastlane/metadata_ios/de-DE/promotional_text.txt": "e5178f009e3b32477d7084b6d8d12aff3a0b0a884c30c130ed21ff8723917bec",
     "fastlane/metadata_ios/hi/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/hi/subtitle.txt": "56288ee5be244542245ae644c525488f782588271012c5c99f6ef2cf5ff13d16",
-    "fastlane/metadata_ios/hi/description.txt": "9c30c624234b216d7a523e6a38e8814b7d84215d5f4abfb2f2933fda176d2e5e",
-    "fastlane/metadata_ios/hi/promotional_text.txt": "3b78713c4fa0cd5e086fefed1402367a90d17ef126107cf5417114898bb8436c",
+    "fastlane/metadata_ios/hi/description.txt": "7ecf5d024a7d47ad6e221ea2ee2c61c3443daefeaec3048c222dcffe14a7d155",
+    "fastlane/metadata_ios/hi/promotional_text.txt": "57a6ebba1e7b513278915e8b72cdde5e0f9ad86685a6e5809ddb8a0e3b2bc4a3",
     "fastlane/metadata_ios/ru/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/ru/subtitle.txt": "bed86bff21addc81d04ce8ea095947ea63cc34f9270a2e16727aae7ebda987d5",
-    "fastlane/metadata_ios/ru/description.txt": "d9675ce94ca3100e95e8f39ccf67420740b4e1655c8e3a073662bf17f41f20f5",
-    "fastlane/metadata_ios/ru/promotional_text.txt": "c0c2bd67c61cfb2250a175d76abe80201b4b06a21a70eb13e17f597e37ab488f",
+    "fastlane/metadata_ios/ru/description.txt": "4f0dabb255cfd49fbc5a1e6649ba6e87f5b05361f38f886f12a9c9267038755e",
+    "fastlane/metadata_ios/ru/promotional_text.txt": "6256c3fc86507619b7f39200b41458723fcb79f200f055cf7b91224fb8c5cac0",
     "fastlane/metadata_ios/ar-SA/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_ios/ar-SA/subtitle.txt": "01ba7f8b5cc47a239b02f929a9dce1a842fb60ae6dd0993e943c6c9e7bf00257",
-    "fastlane/metadata_ios/ar-SA/description.txt": "b6d15f47258d4e63d2892f28b9d1deef24c6dfed83c0ac313254aed5625f3573",
-    "fastlane/metadata_ios/ar-SA/promotional_text.txt": "05ca5b472e8c5e7c094d34e43bab065c757900537adaccf345ced0bb593002df",
+    "fastlane/metadata_ios/ar-SA/description.txt": "574bde5a083af1d39686e0acea072d37f6613f9333d10ada3bdcdaecf1dbe3cf",
+    "fastlane/metadata_ios/ar-SA/promotional_text.txt": "0250bd85adcfc0302a42279e3ca1ab7dd035f5f533cb4b19cd5ff514341adee8",
     "fastlane/metadata_macos/en-US/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/en-US/subtitle.txt": "1f50aaffae7372ce30467f57145e622cbb55f34a2b1d650f521d072c78bb19d7",
-    "fastlane/metadata_macos/en-US/description.txt": "0503090bcb5d56c1a35ad4b9e404073e7a3d8c5405763eab657b3254fdcbd34e",
-    "fastlane/metadata_macos/en-US/promotional_text.txt": "99641be465070bddb27c2f56d2cd476777159d07a6791ac9891ed1ea8c328afe",
+    "fastlane/metadata_macos/en-US/description.txt": "d7cac6495e67b40a65cf1c9e6aa6bec2ccd20b77597d30cdadca128d825ce878",
+    "fastlane/metadata_macos/en-US/promotional_text.txt": "0f1bc58d807dcd379c1a8a0b0481a4f540fa80420043b04a355da7d0985a72ff",
     "fastlane/metadata_macos/zh-Hans/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/zh-Hans/subtitle.txt": "8b6e5ac6304b357f52ad041a64a307cdbfe04e41cf6e9ceb39fa1e7043beb0ff",
-    "fastlane/metadata_macos/zh-Hans/description.txt": "e70a800f2665293193861d0c3f8e7506db35234ccf87a066c41bdc21b8fa8ae1",
-    "fastlane/metadata_macos/zh-Hans/promotional_text.txt": "3369498e20d1f88a40d545d4d24f54896ff5b0bb0cc060235b7a425ff0f9be96",
+    "fastlane/metadata_macos/zh-Hans/description.txt": "92c768fb6d2d679c376f2fe3e748448c79ad9610419a8754a279b76ab10065ec",
+    "fastlane/metadata_macos/zh-Hans/promotional_text.txt": "5de4372a3af46c590618470f459821571e6d6217ed4510e5abef33fe8cc2e57c",
     "fastlane/metadata_macos/zh-Hant/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/zh-Hant/subtitle.txt": "d503be0c6490f0ae96f348b381b3b45b0ce169d812167a1dc22d347fb14a7f42",
-    "fastlane/metadata_macos/zh-Hant/description.txt": "8de1848c32afdc37bcf8e4453f7ed918b6cab4066fad5d9c48ff3b1eac3c4ab0",
-    "fastlane/metadata_macos/zh-Hant/promotional_text.txt": "f82e2b1de8e8d2c54be48a8411690e888e85a0fbd61dae7f24a062e85f66b8b7",
+    "fastlane/metadata_macos/zh-Hant/description.txt": "13120dbf5c8e8cf170582581713f1a3dae7d054e30de4de9315f37e64d5a2f83",
+    "fastlane/metadata_macos/zh-Hant/promotional_text.txt": "bd8edbeab55f9cec8c42e530dc759ebf128f4e7bcdaa25cafb5b55eeb6e73d29",
     "fastlane/metadata_macos/es-ES/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/es-ES/subtitle.txt": "b16d79edbaf5da330a2da3b41b5621000a5340e07096360ec0ab162be1bf16fc",
-    "fastlane/metadata_macos/es-ES/description.txt": "5afe0ff701f08ff44baa0399daf37ce7c71b91bb85e8b772c9285ce713ad3421",
-    "fastlane/metadata_macos/es-ES/promotional_text.txt": "4718f6ca7a439eaec20b069afe929840abb2d6c6e00e9b0ca87fc661b7e0e4f0",
+    "fastlane/metadata_macos/es-ES/description.txt": "c1549bd246c27388f332e084456cbf9c0b07bad6b8840df76864aace5a01d908",
+    "fastlane/metadata_macos/es-ES/promotional_text.txt": "35ea6342785edc03166e9f6892715d83e0cc862a5d4faf34f1169129121a83b2",
     "fastlane/metadata_macos/ja/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/ja/subtitle.txt": "25e876415a2f90c314bef6fd55a0ef29edf7a610bf28066af2ec72c7a5cdb2ac",
-    "fastlane/metadata_macos/ja/description.txt": "9d77c653b22728d0fea705f070cdb3cd5a1e8fe9f529626a5a7b3364dbe7b513",
-    "fastlane/metadata_macos/ja/promotional_text.txt": "aba1cedd9d697311af951c5ff201aea4fcb15377bcaf4d8283d3acb6aa571469",
+    "fastlane/metadata_macos/ja/description.txt": "ebaf19e4b5acbd08e69bee4f5445287a9402d3d794b1193d11ece8c116036152",
+    "fastlane/metadata_macos/ja/promotional_text.txt": "f7a7e58826d8bec7a02d09b53c36ff0243da7a36b518812b1baf23209aac1d0b",
     "fastlane/metadata_macos/ko/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/ko/subtitle.txt": "d6f17b89db378968beeb3226e85971ed9caeca38c90fa627d537e1dedc4ca5ad",
-    "fastlane/metadata_macos/ko/description.txt": "c3fdcbd12cd5796feced11396104a46f98732e8fd83a7b8de36b7ac5541db4ba",
-    "fastlane/metadata_macos/ko/promotional_text.txt": "790753867ec028e0a83f880b7189fe13b47d10443d122d3a73a58fd1d84345ae",
+    "fastlane/metadata_macos/ko/description.txt": "2e0f0f3dfe1d33b45b6fa045e0632857bbd5c96ffe902ffcf6f0881c74327585",
+    "fastlane/metadata_macos/ko/promotional_text.txt": "964b1b15ec2a266de5fa025fdda5a908dc8300101017e63486c38ffb59ca7447",
     "fastlane/metadata_macos/fr-FR/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/fr-FR/subtitle.txt": "141781f3f2790a5579794311d60927625a650d7626db2cb24841f8d0d676498c",
-    "fastlane/metadata_macos/fr-FR/description.txt": "c190c2935c60ea6ef659e85354e57471d97337a2b17d45e85e6ec33f59a554e1",
-    "fastlane/metadata_macos/fr-FR/promotional_text.txt": "7407e9f19dbfe5fb072ea351d36502e61f1e54d1db64ecf3b82b46fcf02efca2",
+    "fastlane/metadata_macos/fr-FR/description.txt": "1f9176196d0254ba2d85cb74e368549cb251e4e64c2dd0bf86f50f214bcbd946",
+    "fastlane/metadata_macos/fr-FR/promotional_text.txt": "590b0a99136405c37d224d9a7511494db75d19bb047d805a66a981c34b181c82",
     "fastlane/metadata_macos/de-DE/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/de-DE/subtitle.txt": "cc7c25fad8ec6f92d2e8533a4ae10a6dd3b545f5a0d25c00c7c52f85f461d624",
-    "fastlane/metadata_macos/de-DE/description.txt": "8afc901f1b897a1f6644439b2983ad0d39702cc57196cef6d1be11b04e268e15",
-    "fastlane/metadata_macos/de-DE/promotional_text.txt": "fa08c98f0345849437d35916eb1e7991f1f16159b7f8f9b62c8906b8aef645b2",
+    "fastlane/metadata_macos/de-DE/description.txt": "a67b3008185e67398e0de768814b899f6698ab28f3e217fd7c6c80ee9e263c0a",
+    "fastlane/metadata_macos/de-DE/promotional_text.txt": "e5178f009e3b32477d7084b6d8d12aff3a0b0a884c30c130ed21ff8723917bec",
     "fastlane/metadata_macos/hi/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/hi/subtitle.txt": "56288ee5be244542245ae644c525488f782588271012c5c99f6ef2cf5ff13d16",
-    "fastlane/metadata_macos/hi/description.txt": "753555645c02e2d3792f9f225f4a13eb61112dc613999a3053f8d5a24952736f",
-    "fastlane/metadata_macos/hi/promotional_text.txt": "3b78713c4fa0cd5e086fefed1402367a90d17ef126107cf5417114898bb8436c",
+    "fastlane/metadata_macos/hi/description.txt": "29406e8dcc20523eb2d8a6561baa8a98e50f9acba353cee03002d4e3c826ea81",
+    "fastlane/metadata_macos/hi/promotional_text.txt": "57a6ebba1e7b513278915e8b72cdde5e0f9ad86685a6e5809ddb8a0e3b2bc4a3",
     "fastlane/metadata_macos/ru/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/ru/subtitle.txt": "bed86bff21addc81d04ce8ea095947ea63cc34f9270a2e16727aae7ebda987d5",
-    "fastlane/metadata_macos/ru/description.txt": "db5d1cef13580e796280d750e695647c24c17a328b490c7a184e6343cc086e71",
-    "fastlane/metadata_macos/ru/promotional_text.txt": "c0c2bd67c61cfb2250a175d76abe80201b4b06a21a70eb13e17f597e37ab488f",
+    "fastlane/metadata_macos/ru/description.txt": "3b74092f0aadc6f797b96d00de4600d253672eabf4b6b81287e6d7372716c7c4",
+    "fastlane/metadata_macos/ru/promotional_text.txt": "6256c3fc86507619b7f39200b41458723fcb79f200f055cf7b91224fb8c5cac0",
     "fastlane/metadata_macos/ar-SA/name.txt": "3b1844cb1b489bf48c2613fe981c7793664592d93f710a9deba7713dcf674dd6",
     "fastlane/metadata_macos/ar-SA/subtitle.txt": "01ba7f8b5cc47a239b02f929a9dce1a842fb60ae6dd0993e943c6c9e7bf00257",
-    "fastlane/metadata_macos/ar-SA/description.txt": "46d33d242e70f8849d26c04583bc553cd6feeaf73119aa4c9635b05e8bdcbbd5",
-    "fastlane/metadata_macos/ar-SA/promotional_text.txt": "05ca5b472e8c5e7c094d34e43bab065c757900537adaccf345ced0bb593002df"
+    "fastlane/metadata_macos/ar-SA/description.txt": "e6208edceda14f1a984cd4be5d070d08494ccc43e03bc5bc04a88f04c3f5887f",
+    "fastlane/metadata_macos/ar-SA/promotional_text.txt": "0250bd85adcfc0302a42279e3ca1ab7dd035f5f533cb4b19cd5ff514341adee8"
   },
   "platforms": {
     "ios": {
       "en-US": {
         "name": "HelloBreak",
         "subtitle": "Screen Time, Limits & Focus",
-        "intro": "Make room for focused work and deliberate breaks. HelloBreak combines daily app limits, a separate Safari website allowance and scheduled focus on iPhone and iPad.",
-        "promotionalText": "Set app limits and a separate Safari website budget. Plan focus; once a day, a 60-second breathing guide offers 15 minutes of temporary app access."
+        "intro": "Turn on purpose prompts for the apps or sites you choose. Pick what you came to do and start a visit of up to 15 minutes within your existing limits.",
+        "promotionalText": "Choose what you came to do before opening an app or site. At your limit, take a 60-second breathing break, then stop or use your daily 15-minute extension."
       },
       "zh-Hans": {
         "name": "HelloBreak",
         "subtitle": "屏幕时间管理、应用限额与专注计时",
-        "intro": "给工作、学习和休息留出空间。HelloBreak 帮你为应用安排每日额度，给 Safari 网站设置独立限时，并预约专注时段，在 iPhone 和 iPad 上更有意识地使用屏幕。",
-        "promotionalText": "为不同应用设置每日额度，给 Safari 网站单独限时，安排专注时段。每天一次，完成 60 秒引导呼吸后可获得 15 分钟临时应用使用时间。规则与记录保存在本机。"
+        "intro": "为选定的应用或网站开启用途提醒。打开前先选好这次要做什么，每次访问最长 15 分钟，仍计入原有额度。",
+        "promotionalText": "打开应用或网站前先选好用途。到达限额后，跟随呼吸引导 60 秒，再决定就此离开，还是使用当天一次的 15 分钟临时访问。"
       },
       "zh-Hant": {
         "name": "HelloBreak",
         "subtitle": "螢幕時間管理、App 限額與專注計時",
-        "intro": "為工作、學習與休息留出空間。HelloBreak 協助你為 App 安排每日額度，為 Safari 網站設定獨立限時，並預約專注時段，在 iPhone 和 iPad 上更有意識地使用螢幕。",
-        "promotionalText": "為不同 App 設定每日額度，為 Safari 網站單獨限時，安排專注時段。每天一次，完成 60 秒引導呼吸後可獲得 15 分鐘暫時 App 使用時間。規則與記錄儲存在本機。"
+        "intro": "為選定的 App 或網站開啟用途提醒。開啟前先選好這次要做什麼，每次造訪最長 15 分鐘，仍計入原有額度。",
+        "promotionalText": "開啟 App 或網站前先選好用途。達到限額後，跟著呼吸引導 60 秒，再決定就此離開，或使用每天一次的 15 分鐘延長時間。"
       },
       "es": {
         "name": "HelloBreak",
         "subtitle": "Límites de uso y concentración",
-        "intro": "Deja espacio para trabajar, estudiar y descansar. HelloBreak combina límites diarios por app, una cuota independiente para sitios de Safari y sesiones de concentración programadas en iPhone y iPad.",
-        "promotionalText": "Límites por app y una cuota para sitios de Safari. Programa tu concentración; una vez al día, 60 segundos de respiración guiada dan 15 minutos de acceso temporal."
+        "intro": "Activa la pregunta de propósito para las apps o los sitios que elijas. Decide para qué entras y empieza una visita de hasta 15 minutos dentro de tu límite habitual.",
+        "promotionalText": "Decide para qué abres una app o un sitio. Al llegar al límite, respira con la guía durante 60 segundos y elige entre salir o usar tu extensión diaria de 15 minutos."
       },
       "ja": {
         "name": "HelloBreak",
         "subtitle": "アプリの利用制限・集中タイマー",
-        "intro": "仕事、勉強、休憩のための時間をつくりましょう。HelloBreakは、アプリごとの1日の利用枠、Safariサイト用の独立した利用枠、予約できる集中時間で、iPhoneとiPadの使い方を支えます。",
-        "promotionalText": "アプリ別の利用枠とSafariサイトの利用枠を設定し、集中時間を予約。1日1回、60秒の呼吸ガイドを終えると15分間の一時的なアプリ利用ができます。記録は端末内に保存。"
+        "intro": "選んだアプリやサイトで、開く前に目的を確認する設定ができます。目的を選ぶと最長15分の利用が始まり、利用時間は通常の上限に含まれます。",
+        "promotionalText": "アプリやサイトを開く前に目的を選択。上限に達したら60秒の呼吸ガイドでひと休みし、そのまま終了するか、1日1回の15分延長を使うか選べます。"
       },
       "ko": {
         "name": "HelloBreak",
         "subtitle": "앱 사용 제한과 집중 타이머",
-        "intro": "업무, 공부와 휴식을 위한 시간을 마련하세요. HelloBreak는 앱별 일일 사용량, Safari 사이트를 위한 별도 사용량과 예약 가능한 집중 세션으로 iPhone과 iPad의 화면 사용을 돕습니다.",
-        "promotionalText": "앱별 사용량과 Safari 사이트 사용량을 정하고 집중 시간을 예약하세요. 하루 한 번, 60초 호흡 안내를 마치면 앱을 15분 동안 임시로 사용할 수 있습니다. 기록은 기기에 저장됩니다."
+        "intro": "선택한 앱이나 사이트를 열기 전에 목적을 묻도록 설정하세요. 할 일을 고르면 기존 한도 안에서 최대 15분 동안 이용할 수 있습니다.",
+        "promotionalText": "앱이나 사이트를 열기 전에 목적을 고르세요. 한도에 닿으면 60초 동안 호흡을 가다듬은 뒤 멈추거나 하루 한 번의 15분 연장을 선택하세요."
       },
       "fr": {
         "name": "HelloBreak",
         "subtitle": "Temps d’écran et concentration",
-        "intro": "Faites de la place au travail, à l’étude et aux pauses. HelloBreak associe limites quotidiennes par app, quota distinct pour les sites Safari et concentration planifiée sur iPhone et iPad.",
-        "promotionalText": "Limitez vos apps et les sites Safari, puis planifiez votre concentration. Une fois par jour, 60 secondes de respiration guidée offrent 15 minutes d’accès temporaire."
+        "intro": "Activez la question sur votre intention pour les apps ou les sites de votre choix. Précisez ce que vous venez faire et commencez une visite de 15 minutes maximum dans votre quota habituel.",
+        "promotionalText": "Précisez votre intention avant d’ouvrir une app ou un site. À la limite, suivez 60 secondes de respiration, puis arrêtez-vous ou utilisez vos 15 minutes du jour."
       },
       "de": {
         "name": "HelloBreak",
         "subtitle": "App-Limits & Fokuszeiten",
-        "intro": "Schaffe Raum für Arbeit, Lernen und Pausen. HelloBreak verbindet tägliche App-Budgets, ein separates Budget für Safari-Websites und geplante Fokuszeiten auf iPhone und iPad.",
-        "promotionalText": "App-Limits, ein eigenes Safari-Webbudget und geplante Fokuszeiten. Einmal täglich ermöglichen 60 Sekunden angeleitete Atmung 15 Minuten vorübergehenden App-Zugriff."
+        "intro": "Aktiviere für ausgewählte Apps oder Websites eine Frage nach deinem Vorhaben. Wähle beim Öffnen, was du tun möchtest. Ein Besuch dauert höchstens 15 Minuten und zählt zum bisherigen Zeitbudget.",
+        "promotionalText": "Wähle vor dem Öffnen dein Vorhaben. Am Tageslimit hast du nach 60 Sekunden Atempause die Wahl: aufhören oder einmal täglich 15 Minuten länger nutzen."
       },
       "hi": {
         "name": "HelloBreak",
         "subtitle": "स्क्रीन टाइम और फ़ोकस",
-        "intro": "ध्यान से काम करने और सोच-समझकर विराम लेने के लिए जगह बनाएँ। HelloBreak, iPhone और iPad पर ऐप की दैनिक सीमाएँ, Safari वेबसाइटों की अलग सीमा और तय समय का फ़ोकस एक साथ देता है।",
-        "promotionalText": "चुनी हुई वेबसाइटें ऐप की सीमाओं से अलग दैनिक समय सीमा साझा करती हैं। उपडोमेन भी शामिल हैं। फ़ोकस समय."
+        "intro": "चुने हुए ऐप या वेबसाइट के लिए खोलने से पहले उद्देश्य पूछने का विकल्प चालू करें। अपना काम चुनें और मौजूदा सीमा के भीतर अधिकतम 15 मिनट का सत्र शुरू करें।",
+        "promotionalText": "ऐप या वेबसाइट खोलने से पहले अपना उद्देश्य चुनें। सीमा पूरी होने पर 60 सेकंड का श्वास विराम लें, फिर रुकें या दिन में एक बार मिलने वाले 15 अतिरिक्त मिनट इस्तेमाल करें।"
       },
       "ru": {
         "name": "HelloBreak",
         "subtitle": "Экранное время и фокус",
-        "intro": "Освободите время для сосредоточенной работы и осознанных перерывов. HelloBreak объединяет дневные лимиты приложений, отдельный лимит сайтов Safari и фокус по расписанию на iPhone и iPad.",
-        "promotionalText": "Выбранные сайты делят дневной лимит, отдельный от приложений. Включая поддомены. Время фокуса."
+        "intro": "Включите вопрос о цели для выбранных приложений или сайтов. Перед открытием выберите, что хотите сделать. Сеанс длится до 15 минут в пределах обычного лимита.",
+        "promotionalText": "Выберите цель перед открытием приложения или сайта. Когда время истечёт, сделайте дыхательную паузу на 60 секунд и решите, остановиться или взять ещё 15 минут."
       },
       "ar": {
         "name": "HelloBreak",
         "subtitle": "وقت الشاشة والحدود والتركيز",
-        "intro": "أفسح مجالًا للعمل المركّز والاستراحات المقصودة. يجمع HelloBreak بين حدود التطبيقات اليومية وحصة منفصلة لمواقع Safari والتركيز المجدول على iPhone وiPad.",
-        "promotionalText": "تتشارك المواقع المحددة حصة يومية منفصلة عن حدود التطبيقات. تشمل النطاقات الفرعية. وقت التركيز."
+        "intro": "فعّل سؤال الغرض للتطبيقات أو المواقع التي تختارها. حدّد ما تريد فعله عند الفتح وابدأ زيارة لا تتجاوز 15 دقيقة ضمن حصتك المعتادة.",
+        "promotionalText": "حدّد غرضك قبل فتح تطبيق أو موقع. عند بلوغ الحد، خذ استراحة تنفّس موجّهة لمدة 60 ثانية، ثم اختر التوقّف أو استخدام تمديدك اليومي لمدة 15 دقيقة."
       }
     },
     "mac": {
       "en-US": {
         "name": "HelloBreak",
         "subtitle": "Screen Time, Limits & Focus",
-        "intro": "Give distracting apps and websites a daily budget on your Mac. HelloBreak combines per-app allowances, browser website limits and scheduled focus, with a guided breathing break before temporary access.",
-        "promotionalText": "Set Mac app limits and a shared website budget for Safari and connected Chrome. Plan focus; a once-daily guided break offers temporary access."
+        "intro": "Turn on purpose prompts for the apps or sites you choose. Pick what you came to do and start a visit of up to 15 minutes within your existing limits.",
+        "promotionalText": "Choose what you came to do before opening an app or site. At your limit, take a 60-second breathing break, then stop or use your daily 15-minute extension."
       },
       "zh-Hans": {
         "name": "HelloBreak",
         "subtitle": "屏幕时间管理、应用限额与专注计时",
-        "intro": "为 Mac 上容易分心的应用和网站安排每日额度。HelloBreak 将应用限额、浏览器网站管理和专注计划结合，在临时继续使用前加入一次有意识的引导呼吸休息。",
-        "promotionalText": "在 Mac 为应用设置每日额度，连通后让 Safari 与 Chrome 共用网站额度。安排专注时间，每天一次休息引导后可临时使用应用。规则与记录保存在本机。"
+        "intro": "为选定的应用或网站开启用途提醒。打开前先选好这次要做什么，每次访问最长 15 分钟，仍计入原有额度。",
+        "promotionalText": "打开应用或网站前先选好用途。到达限额后，跟随呼吸引导 60 秒，再决定就此离开，还是使用当天一次的 15 分钟临时访问。"
       },
       "zh-Hant": {
         "name": "HelloBreak",
         "subtitle": "螢幕時間管理、App 限額與專注計時",
-        "intro": "為 Mac 上容易分心的 App 與網站安排每日額度。HelloBreak 結合 App 限額、瀏覽器網站管理和專注計畫，在暫時繼續使用前加入一次有意識的引導呼吸休息。",
-        "promotionalText": "在 Mac 為 App 設定每日額度，連接後讓 Safari 與 Chrome 共用網站額度。安排專注時間，每天一次休息引導後可暫時使用 App。規則與記錄儲存在本機。"
+        "intro": "為選定的 App 或網站開啟用途提醒。開啟前先選好這次要做什麼，每次造訪最長 15 分鐘，仍計入原有額度。",
+        "promotionalText": "開啟 App 或網站前先選好用途。達到限額後，跟著呼吸引導 60 秒，再決定就此離開，或使用每天一次的 15 分鐘延長時間。"
       },
       "es": {
         "name": "HelloBreak",
         "subtitle": "Límites de uso y concentración",
-        "intro": "Asigna un tiempo diario a las apps y sitios que te distraen en el Mac. HelloBreak reúne límites por app, cuotas para sitios del navegador y concentración programada, con una pausa guiada antes del acceso temporal.",
-        "promotionalText": "Límites de apps del Mac y una cuota web para Safari y Chrome conectado. Programa tu concentración; una pausa guiada diaria ofrece acceso temporal."
+        "intro": "Activa la pregunta de propósito para las apps o los sitios que elijas. Decide para qué entras y empieza una visita de hasta 15 minutos dentro de tu límite habitual.",
+        "promotionalText": "Decide para qué abres una app o un sitio. Al llegar al límite, respira con la guía durante 60 segundos y elige entre salir o usar tu extensión diaria de 15 minutos."
       },
       "ja": {
         "name": "HelloBreak",
         "subtitle": "アプリの利用制限・集中タイマー",
-        "intro": "Macで気が散るアプリやサイトに、1日の利用枠を。HelloBreakは、アプリ別の上限、ブラウザのサイト管理、集中時間の予約をまとめ、一時利用の前に呼吸ガイドで休憩する機会をつくります。",
-        "promotionalText": "Macのアプリ別上限と、Safari・接続済みChromeのサイト利用枠を管理。集中時間を予約し、1日1回の呼吸ガイド後に一時利用できます。記録はMac内に保存。"
+        "intro": "選んだアプリやサイトで、開く前に目的を確認する設定ができます。目的を選ぶと最長15分の利用が始まり、利用時間は通常の上限に含まれます。",
+        "promotionalText": "アプリやサイトを開く前に目的を選択。上限に達したら60秒の呼吸ガイドでひと休みし、そのまま終了するか、1日1回の15分延長を使うか選べます。"
       },
       "ko": {
         "name": "HelloBreak",
         "subtitle": "앱 사용 제한과 집중 타이머",
-        "intro": "Mac에서 주의를 분산시키는 앱과 사이트에 일일 사용량을 정하세요. HelloBreak는 앱별 제한, 브라우저 사이트 관리와 집중 예약을 모으고, 임시 사용 전에 호흡 안내로 잠시 쉬는 기회를 제공합니다.",
-        "promotionalText": "Mac 앱별 사용량과 Safari·연결된 Chrome의 사이트 사용량을 관리하세요. 집중 시간을 예약하고 하루 한 번 호흡 안내 후 임시로 사용할 수 있습니다. 기록은 Mac에 저장됩니다."
+        "intro": "선택한 앱이나 사이트를 열기 전에 목적을 묻도록 설정하세요. 할 일을 고르면 기존 한도 안에서 최대 15분 동안 이용할 수 있습니다.",
+        "promotionalText": "앱이나 사이트를 열기 전에 목적을 고르세요. 한도에 닿으면 60초 동안 호흡을 가다듬은 뒤 멈추거나 하루 한 번의 15분 연장을 선택하세요."
       },
       "fr": {
         "name": "HelloBreak",
         "subtitle": "Temps d’écran et concentration",
-        "intro": "Donnez un budget quotidien aux apps et sites qui vous distraient sur Mac. HelloBreak réunit limites par app, quotas pour les sites du navigateur et concentration planifiée, avec une pause guidée avant l’accès temporaire.",
-        "promotionalText": "Limites d’apps Mac et quota web partagé avec Safari et Chrome connecté. Planifiez votre concentration ; une pause guidée par jour offre un accès temporaire."
+        "intro": "Activez la question sur votre intention pour les apps ou les sites de votre choix. Précisez ce que vous venez faire et commencez une visite de 15 minutes maximum dans votre quota habituel.",
+        "promotionalText": "Précisez votre intention avant d’ouvrir une app ou un site. À la limite, suivez 60 secondes de respiration, puis arrêtez-vous ou utilisez vos 15 minutes du jour."
       },
       "de": {
         "name": "HelloBreak",
         "subtitle": "App-Limits & Fokuszeiten",
-        "intro": "Gib ablenkenden Apps und Websites auf deinem Mac ein tägliches Budget. HelloBreak verbindet App-Limits, Website-Budgets und geplante Fokuszeiten mit einer angeleiteten Atempause vor dem vorübergehenden Zugriff.",
-        "promotionalText": "App-Limits auf dem Mac und ein Webbudget für Safari und verbundenes Chrome. Plane Fokuszeiten; einmal täglich bietet eine Atempause vorübergehenden Zugriff."
+        "intro": "Aktiviere für ausgewählte Apps oder Websites eine Frage nach deinem Vorhaben. Wähle beim Öffnen, was du tun möchtest. Ein Besuch dauert höchstens 15 Minuten und zählt zum bisherigen Zeitbudget.",
+        "promotionalText": "Wähle vor dem Öffnen dein Vorhaben. Am Tageslimit hast du nach 60 Sekunden Atempause die Wahl: aufhören oder einmal täglich 15 Minuten länger nutzen."
       },
       "hi": {
         "name": "HelloBreak",
         "subtitle": "स्क्रीन टाइम और फ़ोकस",
-        "intro": "अपने Mac पर ध्यान भटकाने वाले ऐप और वेबसाइटों की दैनिक सीमा तय करें। HelloBreak में हर ऐप की अलग सीमा, Safari और जुड़े हुए Chrome का साझा वेबसाइट समय, तय फ़ोकस और अस्थायी पहुँच से पहले श्वास विराम मिलता है।",
-        "promotionalText": "चुनी हुई वेबसाइटें ऐप की सीमाओं से अलग दैनिक समय सीमा साझा करती हैं। उपडोमेन भी शामिल हैं। फ़ोकस समय."
+        "intro": "चुने हुए ऐप या वेबसाइट के लिए खोलने से पहले उद्देश्य पूछने का विकल्प चालू करें। अपना काम चुनें और मौजूदा सीमा के भीतर अधिकतम 15 मिनट का सत्र शुरू करें।",
+        "promotionalText": "ऐप या वेबसाइट खोलने से पहले अपना उद्देश्य चुनें। सीमा पूरी होने पर 60 सेकंड का श्वास विराम लें, फिर रुकें या दिन में एक बार मिलने वाले 15 अतिरिक्त मिनट इस्तेमाल करें।"
       },
       "ru": {
         "name": "HelloBreak",
         "subtitle": "Экранное время и фокус",
-        "intro": "Задайте дневной бюджет отвлекающим приложениям и сайтам на Mac. HelloBreak объединяет индивидуальные лимиты, общее время сайтов Safari и подключённого Chrome, фокус по расписанию и дыхательный перерыв перед временным доступом.",
-        "promotionalText": "Выбранные сайты делят дневной лимит, отдельный от приложений. Включая поддомены. Время фокуса."
+        "intro": "Включите вопрос о цели для выбранных приложений или сайтов. Перед открытием выберите, что хотите сделать. Сеанс длится до 15 минут в пределах обычного лимита.",
+        "promotionalText": "Выберите цель перед открытием приложения или сайта. Когда время истечёт, сделайте дыхательную паузу на 60 секунд и решите, остановиться или взять ещё 15 минут."
       },
       "ar": {
         "name": "HelloBreak",
         "subtitle": "وقت الشاشة والحدود والتركيز",
-        "intro": "امنح التطبيقات والمواقع المشتّتة حصة يومية على Mac. يجمع HelloBreak بين حصص مستقلة للتطبيقات ووقت مواقع مشترك بين Safari وChrome المتصل، والتركيز المجدول، واستراحة تنفّس قبل الوصول المؤقت.",
-        "promotionalText": "تتشارك المواقع المحددة حصة يومية منفصلة عن حدود التطبيقات. تشمل النطاقات الفرعية. وقت التركيز."
+        "intro": "فعّل سؤال الغرض للتطبيقات أو المواقع التي تختارها. حدّد ما تريد فعله عند الفتح وابدأ زيارة لا تتجاوز 15 دقيقة ضمن حصتك المعتادة.",
+        "promotionalText": "حدّد غرضك قبل فتح تطبيق أو موقع. عند بلوغ الحد، خذ استراحة تنفّس موجّهة لمدة 60 ثانية، ثم اختر التوقّف أو استخدام تمديدك اليومي لمدة 15 دقيقة."
       }
     }
   }
