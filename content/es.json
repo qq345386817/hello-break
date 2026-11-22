@@ -403,5 +403,12 @@
   "visit.categoryMode": "Esta visita abarca toda la categoría. Las apps configuradas por separado usan su propio ajuste de intención.",
   "visit.switchLocal": "Gestionar solo en Chrome",
   "visit.switchLocalNote": "Se conservan el uso conocido y la ampliación utilizada hoy. Safari tendrá un límite separado hasta reconectar.",
-  "visit.nativeRules": "Los límites diarios, la concentración y las pausas inmediatas siguen vigentes."
+  "visit.nativeRules": "Los límites diarios, la concentración y las pausas inmediatas siguen vigentes.",
+  "pomodoro.title": "Pomodoro",
+  "pomodoro.start": "Iniciar un pomodoro",
+  "pomodoro.detail": "Concéntrate 25 minutos y descansa 5.",
+  "pomodoro.break": "Descanso del pomodoro",
+  "pomodoro.resume": "Los límites diarios siguen activos. Empieza la siguiente ronda cuando quieras.",
+  "pomodoro.finished": "Concentración terminada",
+  "pomodoro.nextAt": "Próxima ronda a partir de %@"
 }

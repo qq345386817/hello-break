@@ -403,5 +403,12 @@
   "visit.categoryMode": "本次使用時段適用於整個類別；個別設定的 App 使用各自的目的規則。",
   "visit.switchLocal": "改為 Chrome 本機管理",
   "visit.switchLocalNote": "保留今天已知用量和已使用的暫時機會；重新連線前，Safari 使用獨立額度。",
-  "visit.nativeRules": "每日額度、專注和立即暫停仍然生效。"
+  "visit.nativeRules": "每日額度、專注和立即暫停仍然生效。",
+  "pomodoro.title": "番茄鐘",
+  "pomodoro.start": "開始一輪番茄鐘",
+  "pomodoro.detail": "專注 25 分鐘，然後休息 5 分鐘。",
+  "pomodoro.break": "番茄鐘休息時間",
+  "pomodoro.resume": "每日限額繼續生效。休息結束後，準備好了再開始下一輪。",
+  "pomodoro.finished": "本輪專注已結束",
+  "pomodoro.nextAt": "%@ 起可開始下一輪"
 }

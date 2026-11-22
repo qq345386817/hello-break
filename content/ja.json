@@ -403,5 +403,12 @@
   "visit.categoryMode": "この利用はカテゴリ全体に適用されます。個別に設定したアプリには、それぞれの目的設定が適用されます。",
   "visit.switchLocal": "Chrome内で管理する",
   "visit.switchLocalNote": "今日の既知の使用量と延長の使用状況を保持します。再接続まではSafariと別の枠になります。",
-  "visit.nativeRules": "1日の上限、集中、一時停止の制限は引き続き有効です。"
+  "visit.nativeRules": "1日の上限、集中、一時停止の制限は引き続き有効です。",
+  "pomodoro.title": "ポモドーロ",
+  "pomodoro.start": "ポモドーロを開始",
+  "pomodoro.detail": "25分間集中したら、5分間休憩します。",
+  "pomodoro.break": "ポモドーロの休憩",
+  "pomodoro.resume": "毎日の制限は引き続き有効です。休憩後、準備ができたら次のセットを始めましょう。",
+  "pomodoro.finished": "集中時間が終了しました",
+  "pomodoro.nextAt": "次のセットは%@から"
 }

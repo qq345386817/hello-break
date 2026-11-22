@@ -403,5 +403,12 @@
   "visit.categoryMode": "This visit covers the whole category. Apps configured separately use their own purpose setting.",
   "visit.switchLocal": "Use Chrome locally",
   "visit.switchLocalNote": "Keeps today’s known usage and used extension chance. Safari will have a separate allowance until you reconnect.",
-  "visit.nativeRules": "Daily limits, Focus and immediate pauses still apply."
+  "visit.nativeRules": "Daily limits, Focus and immediate pauses still apply.",
+  "pomodoro.title": "Pomodoro",
+  "pomodoro.start": "Start a Pomodoro",
+  "pomodoro.detail": "Focus for 25 minutes, then take a 5-minute break.",
+  "pomodoro.break": "Pomodoro break",
+  "pomodoro.resume": "Daily limits still apply. Start the next round when you’re ready.",
+  "pomodoro.finished": "Focus complete",
+  "pomodoro.nextAt": "Next round available from %@"
 }

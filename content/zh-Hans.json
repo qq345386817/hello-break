@@ -403,5 +403,12 @@
   "visit.categoryMode": "本次会话适用于整个类别；单独设置的 App 使用各自的目的规则。",
   "visit.switchLocal": "改为 Chrome 本地管理",
   "visit.switchLocalNote": "保留今天已知用量和已使用的临时机会；重新连接前，Safari 使用独立额度。",
-  "visit.nativeRules": "每日额度、专注和立即暂停仍然生效。"
+  "visit.nativeRules": "每日额度、专注和立即暂停仍然生效。",
+  "pomodoro.title": "番茄钟",
+  "pomodoro.start": "开始一轮番茄钟",
+  "pomodoro.detail": "专注 25 分钟，然后休息 5 分钟。",
+  "pomodoro.break": "番茄钟休息时间",
+  "pomodoro.resume": "每日限额继续生效。休息结束后，准备好了再开始下一轮。",
+  "pomodoro.finished": "本轮专注已结束",
+  "pomodoro.nextAt": "%@ 起可开始下一轮"
 }

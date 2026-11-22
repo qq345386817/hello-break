@@ -403,5 +403,12 @@
   "visit.categoryMode": "Cette visite couvre toute la catégorie. Les apps configurées séparément suivent leur propre réglage d’intention.",
   "visit.switchLocal": "Gérer localement dans Chrome",
   "visit.switchLocalNote": "Conserve l’usage connu et la prolongation utilisée aujourd’hui. Safari aura une limite séparée jusqu’à la reconnexion.",
-  "visit.nativeRules": "Les limites quotidiennes, la concentration et les pauses immédiates restent actives."
+  "visit.nativeRules": "Les limites quotidiennes, la concentration et les pauses immédiates restent actives.",
+  "pomodoro.title": "Pomodoro",
+  "pomodoro.start": "Démarrer un pomodoro",
+  "pomodoro.detail": "Concentrez-vous pendant 25 minutes, puis faites une pause de 5 minutes.",
+  "pomodoro.break": "Pause du pomodoro",
+  "pomodoro.resume": "Les limites quotidiennes restent actives. Lancez la prochaine session à votre rythme.",
+  "pomodoro.finished": "Session terminée",
+  "pomodoro.nextAt": "Prochaine session possible dès %@"
 }

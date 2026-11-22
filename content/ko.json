@@ -403,5 +403,12 @@
   "visit.categoryMode": "이번 이용은 카테고리 전체에 적용돼요. 따로 설정한 앱은 각자의 목적 설정을 따라요.",
   "visit.switchLocal": "Chrome에서 로컬 관리",
   "visit.switchLocalNote": "오늘의 확인된 사용량과 사용한 연장 기회를 유지해요. 다시 연결할 때까지 Safari 한도는 별개예요.",
-  "visit.nativeRules": "일일 한도, 집중 모드, 즉시 일시 정지는 계속 적용돼요."
+  "visit.nativeRules": "일일 한도, 집중 모드, 즉시 일시 정지는 계속 적용돼요.",
+  "pomodoro.title": "뽀모도로",
+  "pomodoro.start": "뽀모도로 시작",
+  "pomodoro.detail": "25분 동안 집중하고 5분간 쉬세요.",
+  "pomodoro.break": "뽀모도로 휴식",
+  "pomodoro.resume": "일일 한도는 계속 적용돼요. 휴식 후 준비되면 다음 회차를 시작하세요.",
+  "pomodoro.finished": "집중 완료",
+  "pomodoro.nextAt": "%@부터 다음 회차 시작 가능"
 }
